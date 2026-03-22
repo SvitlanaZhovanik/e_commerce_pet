@@ -1,7 +1,9 @@
-
+import Slider from '@/components/mainPage/Slider';
 
 export default function Home() {
   return (
-    <h1>Home page</h1>
+    <>
+      <Slider />
+    </>
   );
 }
