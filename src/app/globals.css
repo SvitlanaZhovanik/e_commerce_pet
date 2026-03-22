@@ -1,14 +1,43 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-} */
+:root {
+  --background: #f4f4f2;
+  --backgroundPage: #fbf8ec;
+  --surface: #ffffff;
+  --primary: #ff6633;
+  --secondary: #70c05b;
+  --backgroundTxt: #291e0f;
+  --surfaceTxt: #414141;
+  --primaryTxt: #ffffff;
+  --lightest: #f3f2f1;
+  --light: #bfbfbf;
+  --dark: #8f8f8f;
+  --darkest: #606060;
+  --success: #008c49;
+  --info: #1cb9fc;
+  --warning: #fca2c1;
+  --error: #d80000;
+}
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-backgroundPage: var(--backgroundPage);
+  --color-surface: var(--surface);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-backgroundTxt: var(--backgroundTxt);
+  --color-surfaceTxt: var(--surfaceTxt);
+  --color-primaryTxt: var(--primaryTxt);
+  --color-lightest: var(--lightest);
+  --color-light: var(--light);
+  --color-dark: var(--dark);
+  --color-darkest: var(--darkest);
+  --color-success: var(--success);
+  --color-info: var(--info);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
   --font-sans: var(--font-rubik);
+  --shadow-default: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -19,7 +48,6 @@
 } */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--backgroundPage);
   font-family: var(--font-sans);
 }
