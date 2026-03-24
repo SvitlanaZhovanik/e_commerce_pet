@@ -2,6 +2,7 @@ import Image from 'next/image';
 import IconFavorite from '@/assets/icons/icon-favorite.svg';
 import { calculateFinalPrice, calculatePriceByCard } from '@/utils/productsFunction';
 import { ProductCardProps } from '@/types/products';
+import StarRating from './StarRating';
 
 const ProductCart: React.FC<ProductCardProps> = ({
   imageUrl,
@@ -18,7 +19,7 @@ const ProductCart: React.FC<ProductCardProps> = ({
           src={imageUrl}
           alt={title}
           fill
-          className='object-cover'
+          className='object-cover md:object-center'
           sizes='(max-width:768px) 160px, (max-width: 1200px) 224px, 272px'
         />
         <button className='bg-light text-surfaceTxt hover:text-primary focus:text-primary active:text-error absolute top-2 right-2 cursor-pointer rounded p-1 delay-300'>
@@ -60,7 +61,11 @@ const ProductCart: React.FC<ProductCardProps> = ({
         <h3 className='text-surfaceTxt line-clamp-3 text-xs leading-normal md:line-clamp-2 md:text-base'>
           {description}
         </h3>
-        <div className='flex flex-row items-center justify-between'>Рейтинг {rating}</div>
+        {rating && (
+          <div className='flex flex-row items-center justify-between'>
+            <StarRating rating={rating} />
+          </div>
+        )}
         <button className='border-secondary hover:bg-primary hover:text-surface text-secondary h-10 w-full cursor-pointer items-center justify-center border p-2 transition-all delay-300 hover:border-transparent'>
           До кошика
         </button>

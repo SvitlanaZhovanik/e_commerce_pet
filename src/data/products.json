@@ -6,7 +6,7 @@
             "basePrice": 58.30,
             "description": "Яблоки українські свіжі та смачні.",
             "discountPercentage": 10,
-            "rating": 4.5,
+            "rating": 2.5,
             "weight": "1 кг",
             "categories": [
                 "actions",
@@ -20,7 +20,7 @@
             "basePrice": 120.99,
             "description": "Помідори чері вирощені на полтавщині.",
             "discountPercentage": 15,
-            "rating": 4.2,
+            "rating": 3.2,
             "weight": "500 г",
             "categories": [
                 "actions",
@@ -128,7 +128,7 @@
             "title": "Печиво Nutri Free Goccefrolla ",
             "basePrice": 259.00,
             "description": "Печиво Nutri Free Goccefrolla з шоколадною крихтою",
-            "rating": 4.2,
+            "rating": 2.2,
             "discountPercentage": 0,
             "weight": "300 г",
             "categories": [
