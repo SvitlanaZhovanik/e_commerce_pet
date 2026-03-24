@@ -15,7 +15,7 @@ const TopMenu = () => {
       </li>
       <li className='flex flex-col items-center gap-1 align-middle'>
         <Link href='/favorite' className='delay-300 hover:text-(--color-primary) focus:text-(--color-primary)'>
-          <IconFavorite className='mx-auto h-6 w-6 object-contain' />
+          <IconFavorite className='fill-light mx-auto h-6 w-6 object-contain' />
           <span className=''>Улюблені</span>
         </Link>
       </li>

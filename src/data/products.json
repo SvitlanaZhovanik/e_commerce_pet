@@ -8,7 +8,7 @@
             "discountPercentage": 10,
             "rating": 4.5,
             "weight": "1 кг",
-            "category": [
+            "categories": [
                 "actions",
                 "fruits"
             ],
@@ -22,7 +22,7 @@
             "discountPercentage": 15,
             "rating": 4.2,
             "weight": "500 г",
-            "category": [
+            "categories": [
                 "actions",
                 "vegetables"
             ],
@@ -35,7 +35,8 @@
             "description": "Молоко пастеризоване ПростоНаше 2,5%",
             "rating": 4.4,
             "volume": "850 г",
-            "category": [
+            "discountPercentage": 0,
+            "categories": [
                 "dairy"
             ],
             "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/391ee6f5-3f19-46b1-be47-8883f6a367b9.png"
@@ -47,7 +48,8 @@
             "description": "Хліб Скандинавський з насінням соняшника та льону.",
             "rating": 4.8,
             "weight": "100 г",
-            "category": [
+            "discountPercentage": 0,
+            "categories": [
                 "bakery"
             ],
             "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/978736ed-92b5-416c-9ca3-e57aba28af18.png"
@@ -60,7 +62,7 @@
             "rating": 4.7,
             "weight": "250 г",
             "discountPercentage": 20,
-            "category": [
+            "categories": [
                 "actions",
                 "beverages"
             ],
@@ -74,7 +76,7 @@
             "rating": 4.3,
             "weight": "200 г",
             "discountPercentage": 50,
-            "category": [
+            "categories": [
                 "actions",
                 "dairy"
             ],
@@ -88,7 +90,7 @@
             "rating": 3.2,
             "discountPercentage": 25,
             "volume": "1 л",
-            "category": [
+            "categories": [
                 "actions",
                 "beverages"
             ],
@@ -100,8 +102,9 @@
             "basePrice": 92.49,
             "description": "Йогурт Lactel Грецький стиль вершковий 7%, стакан",
             "rating": 4.1,
+            "discountPercentage": 0,
             "weight": "500 г",
-            "category": [
+            "categories": [
                 "dairy"
             ],
             "imageUrl": "https://images.silpo.ua/v2/products/1600x1600/webp/d9c1d917-5a42-4775-ba07-669b615b0857.png"
@@ -114,7 +117,7 @@
             "rating": 4.0,
             "weight": "100 г",
             "discountPercentage": 33,
-            "category": [
+            "categories": [
                 "actions",
                 "fruits"
             ],
@@ -126,8 +129,9 @@
             "basePrice": 259.00,
             "description": "Печиво Nutri Free Goccefrolla з шоколадною крихтою",
             "rating": 4.2,
+            "discountPercentage": 0,
             "weight": "300 г",
-            "category": [
+            "categories": [
                 "bakery",
                 "desserts"
             ],
