@@ -50,7 +50,8 @@
             "weight": "100 г",
             "discountPercentage": 0,
             "categories": [
-                "bakery"
+                "bakery",
+                "new"
             ],
             "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/978736ed-92b5-416c-9ca3-e57aba28af18.png"
         },
@@ -92,7 +93,8 @@
             "volume": "1 л",
             "categories": [
                 "actions",
-                "beverages"
+                "beverages",
+                "new"
             ],
             "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/9709437e-42f0-4b7e-a7c4-4214f5c267b1.png"
         },
@@ -105,7 +107,8 @@
             "discountPercentage": 0,
             "weight": "500 г",
             "categories": [
-                "dairy"
+                "dairy",
+                "new"
             ],
             "imageUrl": "https://images.silpo.ua/v2/products/1600x1600/webp/d9c1d917-5a42-4775-ba07-669b615b0857.png"
         },
@@ -133,7 +136,8 @@
             "weight": "300 г",
             "categories": [
                 "bakery",
-                "desserts"
+                "desserts",
+                "new"
             ],
             "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e7a44178-b614-422f-a03e-1c3de623e33c.png"
         }

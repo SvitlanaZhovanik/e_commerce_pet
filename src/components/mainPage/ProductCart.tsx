@@ -3,8 +3,10 @@ import IconFavorite from '@/assets/icons/icon-favorite.svg';
 import { calculateFinalPrice, calculatePriceByCard } from '@/utils/productsFunction';
 import { ProductCardProps } from '@/types/products';
 import StarRating from './StarRating';
+import Link from 'next/link';
 
 const ProductCart: React.FC<ProductCardProps> = ({
+  id,
   imageUrl,
   title,
   basePrice,
@@ -13,13 +15,16 @@ const ProductCart: React.FC<ProductCardProps> = ({
   rating,
 }: ProductCardProps) => {
   return (
-    <div className='bg-surface flex h-full min-h-[343px] w-40 flex-col justify-between overflow-hidden rounded p-0 align-top shadow-(--shadow-cart) duration-300 hover:shadow-(--hover-shadow-cart) md:h-[349px] md:w-[224px] xl:w-[272px]'>
+    <Link
+      href={`/products/${id}`}
+      className='bg-surface flex h-full min-h-[343px] w-40 flex-col justify-between overflow-hidden rounded p-0 align-top shadow-(--shadow-cart) duration-300 hover:shadow-(--hover-shadow-cart) md:h-[349px] md:w-[224px] xl:w-[272px]'
+    >
       <div className='relative h-40 w-full'>
         <Image
           src={imageUrl}
           alt={title}
           fill
-          className='object-cover md:object-center'
+          className='object-cover md:object-contain'
           sizes='(max-width:768px) 160px, (max-width: 1200px) 224px, 272px'
         />
         <button className='bg-light text-surfaceTxt hover:text-primary focus:text-primary active:text-error absolute top-2 right-2 cursor-pointer rounded p-1 delay-300'>
@@ -46,7 +51,7 @@ const ProductCart: React.FC<ProductCardProps> = ({
                 <span>{calculateFinalPrice(basePrice, discountPercentage).toFixed(2)}</span>
                 <span>₴</span>
               </div>
-              <p className='text-light text-[8px] md:text-xs'>Звичайна</p>
+              <p className='text-light text-right text-[8px] md:text-xs'>Звичайна</p>
             </div>{' '}
           </div>
         ) : (
@@ -70,7 +75,7 @@ const ProductCart: React.FC<ProductCardProps> = ({
           До кошика
         </button>
       </div>
-    </div>
+    </Link>
   );
 };
 
