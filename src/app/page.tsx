@@ -2,7 +2,7 @@ import ActionSection from '@/components/mainPage/ActionSection';
 import NewItemSection from '@/components/mainPage/NewItemSection';
 import OrderedBeforeSection from '@/components/mainPage/OrderedBeforeSection';
 import Slider from '@/components/mainPage/Slider/Slider';
-import SpecialOffers from '@/components/mainPage/SpecialOffers';
+import SpecialOffersSection from '@/components/mainPage/SpecialOffersSection';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <ActionSection />
       <NewItemSection />
       <OrderedBeforeSection />
-      <SpecialOffers />
+      <SpecialOffersSection />
     </>
   );
 }
