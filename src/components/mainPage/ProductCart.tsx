@@ -17,7 +17,7 @@ const ProductCart: React.FC<ProductCardProps> = ({
   return (
     <Link
       href={`/products/${id}`}
-      className='bg-surface flex h-full min-h-[343px] w-40 flex-col justify-between overflow-hidden rounded p-0 align-top shadow-(--shadow-cart) duration-300 hover:shadow-(--hover-shadow-cart) md:h-[349px] md:w-[224px] xl:w-[272px]'
+      className='bg-surface flex h-full min-h-85.75 flex-col justify-between overflow-hidden rounded p-0 align-top shadow-(--shadow-card) duration-300 hover:shadow-(--hover-shadow-card) md:h-[349px] xl:w-[272px]'
     >
       <div className='relative h-40 w-full'>
         <Image

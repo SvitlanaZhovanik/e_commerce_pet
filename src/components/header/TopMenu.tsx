@@ -10,26 +10,26 @@ const TopMenu = () => {
       <li className='flex flex-col items-center gap-1 align-middle md:hidden'>
         <Link href='/catalog' className='delay-300 hover:text-(--color-primary) focus:text-(--color-primary)'>
           <IconMenu className='mx-auto h-6 w-6 object-contain' />
-          <span className=''>Каталог</span>
+          <span>Каталог</span>
         </Link>
       </li>
       <li className='flex flex-col items-center gap-1 align-middle'>
         <Link href='/favorite' className='delay-300 hover:text-(--color-primary) focus:text-(--color-primary)'>
           <IconFavorite className='fill-light mx-auto h-6 w-6 object-contain' />
-          <span className=''>Улюблені</span>
+          <span>Улюблені</span>
         </Link>
       </li>
 
       <li className='flex flex-col items-center gap-1 align-middle'>
         <Link href='/orders' className='delay-300 hover:text-(--color-primary) focus:text-(--color-primary)'>
           <IconBox className='mx-auto h-6 w-6 object-contain' />
-          <span className=''>Обране</span>
+          <span>Обране</span>
         </Link>
       </li>
       <li className='flex flex-col items-center gap-1'>
         <Link href='/cart' className='delay-300 hover:text-(--color-primary) focus:text-(--color-primary)'>
           <IconShoppingCart className='mx-auto h-6 w-6 object-contain' />
-          <span className=''>Кошик</span>
+          <span>Кошик</span>
         </Link>
       </li>
     </ul>

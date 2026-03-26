@@ -17,8 +17,9 @@
   --info: #1cb9fc;
   --warning: #fca2c1;
   --error: #d80000;
-  --shadow-cart: 1px 2px 4px 0px rgba(0, 0, 0, 0.1);
-  --hover-shadow-cart: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
+  --shadow-card: 1px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  --hover-shadow-card: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
+  --saleCard: 0px 8px 47px 0px rgba(200, 90, 53, 0.51);
 }
 
 @theme inline {
