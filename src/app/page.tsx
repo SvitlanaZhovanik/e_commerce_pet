@@ -1,4 +1,5 @@
 import ActionSection from '@/components/mainPage/ActionSection';
+import MapSection from '@/components/mainPage/MapSection';
 import NewItemSection from '@/components/mainPage/NewItemSection';
 import OrderedBeforeSection from '@/components/mainPage/OrderedBeforeSection';
 import Slider from '@/components/mainPage/Slider/Slider';
@@ -13,6 +14,7 @@ export default function Home() {
       <NewItemSection />
       <OrderedBeforeSection />
       <SpecialOffersSection />
+      <MapSection />
     </>
   );
 }
