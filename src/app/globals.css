@@ -7,6 +7,7 @@
   --surface: #ffffff;
   --primary: #ff6633;
   --secondary: #70c05b;
+  --secondaryMuted: #e5ffde;
   --backgroundTxt: #291e0f;
   --surfaceTxt: #414141;
   --primaryTxt: #ffffff;
@@ -29,6 +30,7 @@
   --color-surface: var(--surface);
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
+  --color-secondaryMuted: var(--secondaryMuted);
   --color-backgroundTxt: var(--backgroundTxt);
   --color-surfaceTxt: var(--surfaceTxt);
   --color-primaryTxt: var(--primaryTxt);

@@ -1,4 +1,4 @@
-import ProductCart from './ProductCart';
+import ProductCard from './ProductCard';
 import { ProductCardProps } from '@/types/products';
 import { products } from '@/data/products.json';
 import Link from 'next/link';
@@ -23,7 +23,7 @@ const ActionSection = () => {
                   key={product.id}
                   className={`${index >= 4 ? 'hidden' : ''} ${index >= 3 ? 'md:hidden lg:block' : ''} ${index >= 4 ? 'lg:hidden' : ''} `}
                 >
-                  <ProductCart {...product} />
+                  <ProductCard {...product} />
                 </li>
               );
             }
