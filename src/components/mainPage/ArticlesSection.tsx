@@ -9,7 +9,10 @@ const ArticlesSection = () => {
       <div className='px-3 md:px-4 xl:mx-auto xl:max-w-302'>
         <div className='mb-5 flex flex-row items-center justify-between md:mb-8 xl:mb-10'>
           <h2 className='text-surfaceTxt text-2xl font-bold xl:text-4xl'>Новини</h2>
-          <Link href={'/new'} className='hover:text-primary focus:text-primary flex cursor-pointer gap-6 delay-300'>
+          <Link
+            href={'/articles'}
+            className='hover:text-primary focus:text-primary flex cursor-pointer gap-6 delay-300'
+          >
             Всі новини <ArrowDown className='h-6 w-6 rotate-270' />
           </Link>
         </div>

@@ -20,7 +20,7 @@ const Article: React.FC<ArticleProps> = ({ id, title, date, description, imgUrl 
         <h3 className='text-surfaceTxt font-bold xl:text-lg'>{title}</h3>
         <p className='text-surfaceTxt line-clamp-3 text-xs xl:text-base'>{description}</p>
         <Link
-          href={`/articles/${id}`}
+          href={`/articles/article-${id}`}
           className='text-secondary hover:bg-secondary hover:text-primaryTxt mt-auto flex h-10 w-37.5 items-center justify-center rounded bg-(--color-secondaryMuted) duration-300'
         >
           Детальніше
