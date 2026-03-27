@@ -6,7 +6,7 @@ import { articles } from '@/data/articles.json';
 const ArticlesSection = () => {
   return (
     <section className='mb-20 md:mb-25 xl:mb-30'>
-      <div className='px-3 md:px-4 xl:mx-auto xl:max-w-302'>
+      <div className='container'>
         <div className='mb-5 flex flex-row items-center justify-between md:mb-8 xl:mb-10'>
           <h2 className='text-surfaceTxt text-2xl font-bold xl:text-4xl'>Новини</h2>
           <Link

@@ -24,7 +24,7 @@ const MapSection = () => {
 
   return (
     <section className='mb-20 md:mb-25 xl:mb-30'>
-      <div className='px-3 md:px-4 xl:mx-auto xl:max-w-302'>
+      <div className='container'>
         <h2 className='text-surfaceTxt mb-4 text-2xl font-bold md:mb-8 xl:mb-10 xl:text-4xl'>Де нас знайти?</h2>
         <div className='mb-6 flex flex-row flex-wrap gap-4 md:mb-8 md:flex-nowrap md:gap-8 xl:mb-10 xl:gap-10'>
           {cities.map((city, index) => {
@@ -32,7 +32,7 @@ const MapSection = () => {
             return (
               <button
                 key={index}
-                className={`hover:bg-secondary hover:text-surface focus:bg-secondary focus:text-surface active:bg-secondary active:text-surface rounded px-4 py-2 delay-300 md:mb-8 xl:mb-10 ${isActive ? 'bg-secondary text-surface' : 'bg-lightest text-surfaceTxt'}`}
+                className={`hover:bg-secondary hover:text-surface focus:bg-secondary focus:text-surface active:bg-secondary active:text-surface rounded px-4 py-2 shadow-(--shadow-hover) delay-300 md:mb-8 xl:mb-10 ${isActive ? 'bg-secondary text-surface border-none' : 'bg-secondaryMuted border-secondary text-surfaceTxt border'}`}
                 onClick={() => onClickButton(city.coords, city.address)}
               >
                 {city.name}

@@ -21,9 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='uk' className={`${rubik.variable}`}>
-      <body className='flex min-h-dvh flex-col font-sans antialiased'>
+      <body className='flex flex-col font-sans antialiased'>
         <Header />
-        <main className='flex-1'>{children}</main>
+        <main className='md:flex-1'>{children}</main>
         <Footer />
       </body>
     </html>

@@ -8,7 +8,7 @@ const ActionSection = () => {
   const actionsProducts = products.filter(p => p.categories?.includes('actions'));
   return (
     <section className='mb-20 md:mb-25 xl:mb-30'>
-      <div className='px-3 md:px-4 xl:mx-auto xl:max-w-302'>
+      <div className='container'>
         <div className='mb-5 flex flex-row items-center justify-between md:mb-8 xl:mb-10'>
           <h2 className='text-surfaceTxt text-2xl font-bold xl:text-4xl'>Акції</h2>
           <Link href={'/actions'} className='hover:text-primary focus:text-primary flex cursor-pointer gap-6 delay-300'>

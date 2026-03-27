@@ -4,7 +4,7 @@ import Banner from '@/assets/background-banner.svg';
 const SpecialOffersSection = () => {
   return (
     <section className='mb-20 md:mb-25 xl:mb-30'>
-      <div className='px-3 md:px-4 xl:mx-auto xl:max-w-302'>
+      <div className='container'>
         <h2 className='text-surfaceTxt mb-4 text-2xl font-bold md:mb-8 xl:mb-10 xl:text-4xl'>Спеціальні пропозиції</h2>
         <div className='flex flex-col gap-4 md:flex-2 md:flex-row md:gap-8 xl:gap-10'>
           <div className='text-surfaceTxt relative w-full overflow-hidden rounded bg-[#FCD5BA] px-4 py-4 shadow-(--hover-shadow-card) xl:px-8 xl:py-10'>
