@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const SlideOne = () => {
   return (
-    <div className='relative flex h-20 justify-center overflow-hidden bg-white/80 bg-[url("/pattern-slider.png")] bg-contain bg-repeat bg-blend-overlay md:h-40 xl:h-50'>
+    <div className='relative flex h-20 justify-center overflow-hidden bg-white/80 bg-[url("/pattern-slider.png")] bg-repeat bg-blend-overlay md:h-40 xl:h-50'>
       <div className='relative z-10 flex flex-row items-center gap-x-2 xl:gap-x-4'>
         <div className='relative hidden md:top-7 md:block md:h-33 md:w-50 xl:h-50 xl:w-75'>
           <Image
