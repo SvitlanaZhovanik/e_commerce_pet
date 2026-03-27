@@ -5,7 +5,7 @@ import { ProductCardProps } from '@/types/products';
 import StarRating from './StarRating';
 import Link from 'next/link';
 
-const ProductCart: React.FC<ProductCardProps> = ({
+const ProductCard: React.FC<ProductCardProps> = ({
   id,
   imageUrl,
   title,
@@ -79,4 +79,4 @@ const ProductCart: React.FC<ProductCardProps> = ({
   );
 };
 
-export default ProductCart;
+export default ProductCard;

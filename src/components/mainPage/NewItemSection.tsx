@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import ProductCart from './ProductCart';
+import ProductCard from './ProductCard';
 import { ProductCardProps } from '@/types/products';
 import ArrowDown from '@/assets/icons/icon-arrow-down.svg';
 import { products } from '@/data/products.json';
@@ -22,7 +22,7 @@ const NewItemSection = () => {
                 key={product.id}
                 className={`${index >= 4 ? 'hidden' : ''} ${index >= 3 ? 'md:hidden lg:block' : ''} ${index >= 4 ? 'lg:hidden' : ''} `}
               >
-                <ProductCart {...product} />
+                <ProductCard {...product} />
               </li>
             );
           })}

@@ -14,7 +14,11 @@ const nextConfig: NextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
     qualities: [75, 90],
-    remotePatterns: [new URL('https://cdn.pixabay.com/photo/**'), new URL('https://images.silpo.ua/v2/products/**')],
+    remotePatterns: [
+      new URL('https://cdn.pixabay.com/photo/**'),
+      new URL('https://images.silpo.ua/v2/products/**'),
+      new URL('https://static.silpo.ua/content/**'),
+    ],
   },
 };
 
