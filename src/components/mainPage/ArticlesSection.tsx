@@ -1,9 +1,21 @@
 import Link from 'next/link';
 import ArrowDown from '@/assets/icons/icon-arrow-down.svg';
 import Article from './Article';
-import { articles } from '@/data/articles.json';
+import { ArticleProps } from '@/types/articles';
 
-const ArticlesSection = () => {
+const ArticlesSection = async () => {
+  let articles: ArticleProps[] = [];
+  let error = null;
+  try {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL!}/api/articles`);
+    articles = await res.json();
+  } catch (err) {
+    error = 'Помилка при отриманні новин';
+    console.error('Помилка в секції Новин', err);
+  }
+  if (error) {
+    return <div className='text-error container p-4 text-4xl md:p-8 xl:p-10'>{error}</div>;
+  }
   return (
     <section className='mb-20 md:mb-25 xl:mb-30'>
       <div className='container'>
@@ -17,9 +29,9 @@ const ArticlesSection = () => {
           </Link>
         </div>
         <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-          {articles.map(article => {
+          {articles.slice(0, 3).map(article => {
             return (
-              <li key={article.id} className='h-75 md:h-105'>
+              <li key={article._id} className='h-75 md:h-105'>
                 <Article {...article} />
               </li>
             );

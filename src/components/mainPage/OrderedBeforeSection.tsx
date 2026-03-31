@@ -2,19 +2,20 @@ import Link from 'next/link';
 import ProductCard from './ProductCard';
 import { ProductCardProps } from '@/types/products';
 import ArrowDown from '@/assets/icons/icon-arrow-down.svg';
-import { products } from '@/data/products.json';
-import { users } from '@/data/users.json';
 
-const OrderedBeforeSection = () => {
-  const user = users[1];
-  const productsPurchased = user.purchases
-    .map(purchase => {
-      const product = products.find(p => p.id === purchase.productId);
-      if (!product) return null;
-      return { ...product };
-    })
-    .filter(p => p !== null) as ProductCardProps[];
-
+const OrderedBeforeSection = async () => {
+  let productsPurchased: ProductCardProps[] = [];
+  let error = null;
+  try {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL!}/api/users/purchases`);
+    productsPurchased = await res.json();
+  } catch (err) {
+    error = 'Помилка при отриманні раніше придбаних продуктів';
+    console.error('Помилка в секції раніше придбані продукти', err);
+  }
+  if (error) {
+    return <div className='text-error container p-4 text-4xl md:p-8 xl:p-10'>{error}</div>;
+  }
   return (
     <section className='mb-20 md:mb-25 xl:mb-30'>
       <div className='container'>

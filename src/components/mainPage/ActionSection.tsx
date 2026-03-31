@@ -1,11 +1,22 @@
 import ProductCard from './ProductCard';
 import { ProductCardProps } from '@/types/products';
-import { products } from '@/data/products.json';
 import Link from 'next/link';
 import ArrowDown from '@/assets/icons/icon-arrow-down.svg';
 
-const ActionSection = () => {
-  const actionsProducts = products.filter(p => p.categories?.includes('actions'));
+const ActionSection = async () => {
+  let actionsProducts: ProductCardProps[] = [];
+  let error = null;
+  try {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL!}/api/products?category=actions`);
+    actionsProducts = await res.json();
+  } catch (err) {
+    error = 'Помилка при отриманні акцій';
+    console.error('Помилка в секції акції', err);
+  }
+  if (error) {
+    return <div className='text-error container p-4 text-4xl md:p-8 xl:p-10'>{error}</div>;
+  }
+
   return (
     <section className='mb-20 md:mb-25 xl:mb-30'>
       <div className='container'>

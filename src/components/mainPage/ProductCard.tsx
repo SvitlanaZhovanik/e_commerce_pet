@@ -6,7 +6,7 @@ import StarRating from './StarRating';
 import Link from 'next/link';
 
 const ProductCard: React.FC<ProductCardProps> = ({
-  id,
+  _id,
   imageUrl,
   title,
   basePrice,
@@ -16,7 +16,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }: ProductCardProps) => {
   return (
     <Link
-      href={`/products/${id}`}
+      href={`/products/${_id}`}
       className='bg-surface flex h-full min-h-85.75 flex-col justify-between overflow-hidden rounded p-0 align-top shadow-(--shadow-card) duration-300 hover:shadow-(--hover-shadow-card) md:h-[349px] xl:w-[272px]'
     >
       <div className='relative h-40 w-full'>

@@ -2,10 +2,20 @@ import Link from 'next/link';
 import ProductCard from './ProductCard';
 import { ProductCardProps } from '@/types/products';
 import ArrowDown from '@/assets/icons/icon-arrow-down.svg';
-import { products } from '@/data/products.json';
 
-const NewItemSection = () => {
-  const newProducts = products.filter(p => p.categories?.includes('new'));
+const NewItemSection = async () => {
+  let newProducts: ProductCardProps[] = [];
+  let error = null;
+  try {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL!}/api/products?category=new`);
+    newProducts = await res.json();
+  } catch (err) {
+    error = 'Помилка при отриманні нових продуктів';
+    console.error('Помилка в секції нові продукти', err);
+  }
+  if (error) {
+    return <div className='text-error container p-4 text-4xl md:p-8 xl:p-10'>{error}</div>;
+  }
   return (
     <section className='mb-20 md:mb-25 xl:mb-30'>
       <div className='container'>
