@@ -1,15 +1,13 @@
 import ProductCard from './ProductCard';
 import { ProductCardProps } from '@/types/products';
 import ViewAllLink from './ViewAllLink';
-import { shuffleArray } from '@/utils/shuffleArray';
+import { getProductsByCategory } from '@/utils/productsApi';
 
 const NewItemSection = async () => {
   let newProducts: ProductCardProps[] = [];
   let error = null;
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL!}/api/products?category=new`);
-    newProducts = await res.json();
-    newProducts = shuffleArray(newProducts);
+    newProducts = (await getProductsByCategory('new')) as ProductCardProps[];
   } catch (err) {
     error = 'Помилка при отриманні нових продуктів';
     console.error('Помилка в секції нові продукти', err);

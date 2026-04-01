@@ -1,13 +1,13 @@
 import ViewAllLink from './ViewAllLink';
 import Article from './Article';
 import { ArticleProps } from '@/types/articles';
+import { getArticles } from '@/utils/articlesApi';
 
 const ArticlesSection = async () => {
   let articles: ArticleProps[] = [];
   let error = null;
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL!}/api/articles`);
-    articles = await res.json();
+    articles = await getArticles();
   } catch (err) {
     error = 'Помилка при отриманні новин';
     console.error('Помилка в секції Новин', err);

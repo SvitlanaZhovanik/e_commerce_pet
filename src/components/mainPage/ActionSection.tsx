@@ -1,19 +1,19 @@
 import ProductCard from './ProductCard';
 import { ProductCardProps } from '@/types/products';
 import ViewAllLink from './ViewAllLink';
-import { shuffleArray } from '@/utils/shuffleArray';
+import { getProductsByCategory } from '@/utils/productsApi';
 
 const ActionSection = async () => {
   let actionsProducts: ProductCardProps[] = [];
-  let error = null;
+  let error: string | null = null;
+
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL!}/api/products?category=actions`);
-    actionsProducts = await res.json();
-    actionsProducts = shuffleArray(actionsProducts);
+    actionsProducts = await getProductsByCategory('actions');
   } catch (err) {
-    error = 'Помилка при отриманні акцій';
-    console.error('Помилка в секції акції', err);
+    console.error('Помилка при отриманні акцій:', err);
+    error = 'Не вдалося завантажити акційні товари. Спробуйте пізніше.';
   }
+
   if (error) {
     return <div className='text-error container p-4 text-4xl md:p-8 xl:p-10'>{error}</div>;
   }
@@ -30,7 +30,7 @@ const ActionSection = async () => {
             if (product.discountPercentage && product.discountPercentage > 0) {
               return (
                 <li
-                  key={product.id}
+                  key={product._id}
                   className={`${index >= 4 ? 'hidden' : ''} ${index >= 3 ? 'md:hidden lg:block' : ''} ${index >= 4 ? 'lg:hidden' : ''} `}
                 >
                   <ProductCard {...product} />
