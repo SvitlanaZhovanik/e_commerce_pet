@@ -1,7 +1,6 @@
-import Link from 'next/link';
 import ProductCard from './ProductCard';
 import { ProductCardProps } from '@/types/products';
-import ArrowDown from '@/assets/icons/icon-arrow-down.svg';
+import ViewAllLink from './ViewAllLink';
 import { shuffleArray } from '@/utils/shuffleArray';
 
 const NewItemSection = async () => {
@@ -23,9 +22,7 @@ const NewItemSection = async () => {
       <div className='container'>
         <div className='mb-5 flex flex-row items-center justify-between md:mb-8 xl:mb-10'>
           <h2 className='text-surfaceTxt text-2xl font-bold xl:text-4xl'>Новинки</h2>
-          <Link href={'/new'} className='hover:text-primary focus:text-primary flex cursor-pointer gap-6 delay-300'>
-            Всі новинки <ArrowDown className='h-6 w-6 rotate-270' />
-          </Link>
+          <ViewAllLink href='/new' name='Всі новинки' />
         </div>
         <ul className='mt-4 grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-4 xl:gap-10'>
           {newProducts.slice(0, 4).map((product: ProductCardProps, index: number) => {

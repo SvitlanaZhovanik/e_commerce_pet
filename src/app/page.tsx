@@ -3,7 +3,7 @@ import ArticlesSection from '@/components/mainPage/ArticlesSection';
 import MapSection from '@/components/mainPage/MapSection';
 import NewItemSection from '@/components/mainPage/NewItemSection';
 import OrderedBeforeSection from '@/components/mainPage/OrderedBeforeSection';
-import Slider from '@/components/mainPage/Slider/Slider';
+import Slider from '@/components/mainPage/slider/Slider';
 import SpecialOffersSection from '@/components/mainPage/SpecialOffersSection';
 
 export default function Home() {

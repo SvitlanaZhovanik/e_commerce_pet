@@ -1,5 +1,4 @@
-import Link from 'next/link';
-import ArrowDown from '@/assets/icons/icon-arrow-down.svg';
+import ViewAllLink from './ViewAllLink';
 import Article from './Article';
 import { ArticleProps } from '@/types/articles';
 
@@ -21,12 +20,7 @@ const ArticlesSection = async () => {
       <div className='container'>
         <div className='mb-5 flex flex-row items-center justify-between md:mb-8 xl:mb-10'>
           <h2 className='text-surfaceTxt text-2xl font-bold xl:text-4xl'>Новини</h2>
-          <Link
-            href={'/articles'}
-            className='hover:text-primary focus:text-primary flex cursor-pointer gap-6 delay-300'
-          >
-            Всі новини <ArrowDown className='h-6 w-6 rotate-270' />
-          </Link>
+          <ViewAllLink href='articles' name='Всі новини' />
         </div>
         <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
           {articles.slice(0, 3).map(article => {
