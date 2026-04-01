@@ -9,7 +9,7 @@ const Footer = () => {
           <Link href='/' className='h-10 w-10 delay-300 hover:scale-120'>
             <IconLogo />
           </Link>
-          <nav className='flex flex-row gap-4'>
+          <nav className='flex flex-row justify-center gap-4 text-center'>
             <Link href='/about' className='hover:text-primary delay-300'>
               Про компанію
             </Link>
