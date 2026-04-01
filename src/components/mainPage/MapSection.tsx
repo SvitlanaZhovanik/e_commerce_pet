@@ -1,7 +1,10 @@
 'use client';
-
 import { useState } from 'react';
-import ClientMap from './ClientMap';
+import dynamic from 'next/dynamic';
+const ClientMap = dynamic(() => import('@/components/mainPage/ClientMap'), {
+  ssr: false,
+  loading: () => <div className='h-100 w-full animate-pulse rounded-xl bg-gray-200' />,
+});
 import type { LatLngTuple } from 'leaflet';
 
 const cities: Array<{ name: string; coords: LatLngTuple; address: string }> = [
@@ -13,9 +16,7 @@ const cities: Array<{ name: string; coords: LatLngTuple; address: string }> = [
 
 const MapSection = () => {
   const [position, setPosition] = useState<LatLngTuple>(cities[0].coords);
-  const [address, setAddress] = useState('вул. Хрещатик, 1');
-
-  const isWindows = typeof window !== 'undefined';
+  const [address, setAddress] = useState(cities[0].address);
 
   const onClickButton = (markerPosition: LatLngTuple, markerAddress: string) => {
     setPosition(markerPosition);
@@ -40,7 +41,7 @@ const MapSection = () => {
             );
           })}
         </div>
-        {isWindows && <ClientMap position={position} address={address} />}
+        <ClientMap position={position} address={address} />
       </div>
     </section>
   );

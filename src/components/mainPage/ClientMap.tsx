@@ -2,8 +2,17 @@
 
 import { useEffect } from 'react';
 import L from 'leaflet';
+import { useMap } from 'react-leaflet';
+import dynamic from 'next/dynamic';
 import type { LatLngTuple } from 'leaflet';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+
+const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
+
+const TileLayer = dynamic(() => import('react-leaflet').then(mod => mod.TileLayer), { ssr: false });
+
+const Marker = dynamic(() => import('react-leaflet').then(mod => mod.Marker), { ssr: false });
+
+const Popup = dynamic(() => import('react-leaflet').then(mod => mod.Popup), { ssr: false });
 
 const ChangeView = ({ position }: { position: LatLngTuple }) => {
   const map = useMap();

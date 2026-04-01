@@ -2,6 +2,7 @@ import ProductCard from './ProductCard';
 import { ProductCardProps } from '@/types/products';
 import Link from 'next/link';
 import ArrowDown from '@/assets/icons/icon-arrow-down.svg';
+import { shuffleArray } from '@/utils/shuffleArray';
 
 const ActionSection = async () => {
   let actionsProducts: ProductCardProps[] = [];
@@ -9,6 +10,7 @@ const ActionSection = async () => {
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL!}/api/products?category=actions`);
     actionsProducts = await res.json();
+    actionsProducts = shuffleArray(actionsProducts);
   } catch (err) {
     error = 'Помилка при отриманні акцій';
     console.error('Помилка в секції акції', err);
