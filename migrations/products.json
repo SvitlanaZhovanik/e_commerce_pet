@@ -139,5 +139,2556 @@
             "new"
         ],
         "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e7a44178-b614-422f-a03e-1c3de623e33c.png"
+    },
+    {
+        "id": 11,
+        "title": "Напій соковмісний Schweppes Tangerine",
+        "basePrice": 50.90,
+        "description": "Напій соковмісний Schweppes Tangerine сильногазований, 1л",
+        "rating": 2.3,
+        "discountPercentage": 0,
+        "volume": "1 л",
+        "categories": [
+            "beverages",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/391aa491-7eff-46cc-baa1-e8e8b41bc909.png"
+    },
+    {
+        "id": 12,
+        "title": "Паска",
+        "basePrice": 88.99,
+        "description": "Перед вами великодня класика. Та сама паска, яку знають і цінують усі за канонічну глазуровану верхівку й пухкеньке тісто з родзинками. ",
+        "rating": 0,
+        "discountPercentage": 10,
+        "weight": "300 г",
+        "categories": [
+            "bakery",
+            "desserts",
+            "actions"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/02921230-aa28-47ab-badb-4450f26e4b96.png"
+    },
+    {
+        "id": 13,
+        "title": "Кекс з сиром",
+        "basePrice": 43.29,
+        "description": "Творожний кекс випечений за традиційним рецептом",
+        "rating": 3.2,
+        "discountPercentage": 20,
+        "weight": "100 г",
+        "categories": [
+            "bakery",
+            "desserts",
+            "actions"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/a05484e2-2c28-4e21-bd0e-c4a190365d45.png"
+    },
+    {
+        "id": 14,
+        "title": "Нагетси Ходорівський м'ясокомбінат заморожені",
+        "basePrice": 149.00,
+        "description": "Заморожені курячі нагетси «Ходорівський м'ясокомбінат» — це смачна та зручна у приготуванні страва, яка підходить для швидкого перекусу або повноцінного обіду.",
+        "rating": 2.1,
+        "discountPercentage": 40,
+        "weight": "390г",
+        "categories": [
+            "meat",
+            "actions"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/a0cec023-e4ec-4d70-91fd-d63886d8ca00.png"
+    },
+    {
+        "id": 15,
+        "title": "Стейк стріплойн Dry Aged",
+        "basePrice": 189.90,
+        "description": "яловичина 100% що вирощена в степах України",
+        "rating": 4.8,
+        "discountPercentage": 10,
+        "weight": "100 г",
+        "categories": [
+            "meat",
+            "actions"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/19e84f55-d5f3-4581-8553-a6455bfbd663.png"
+    },
+    {
+        "id": 16,
+        "title": "Індиче філе охолоджене",
+        "basePrice": 45.47,
+        "description": "Індиче філе охолоджене, 100г",
+        "rating": 2.2,
+        "discountPercentage": 18,
+        "weight": "100 г",
+        "categories": [
+            "meat",
+            "actions"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/577ef350-7491-47bc-9649-d872369f1e7d.png"
+    },
+    {
+        "id": 17,
+        "title": "Фарш телячий",
+        "basePrice": 23.29,
+        "description": "телятина 100%, 100г",
+        "rating": 4.2,
+        "discountPercentage": 0,
+        "weight": "100 г",
+        "categories": [
+            "meat",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/ca92b8cf-9254-4a81-92d9-8e75bf24ca8c.png"
+    },
+    {
+        "id": 18,
+        "title": "Фрикадельки індичі",
+        "basePrice": 83.29,
+        "description": "Фрикадельки індичі «Натурвіль» заморожені, 300г",
+        "rating": 1.2,
+        "discountPercentage": 0,
+        "weight": "300 г",
+        "categories": [
+            "meat",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e02d1610-33da-4a53-84d1-92d061de7fce.png"
+    },
+    {
+        "id": 19,
+        "title": "Салат Fit&Easy Рукола",
+        "basePrice": 39.99,
+        "description": "Салат Fit&Easy Рукола, 100г",
+        "rating": 3.2,
+        "discountPercentage": 0,
+        "weight": "100 г",
+        "categories": [
+            "vegetables",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/d2d6b5a2-d394-4c93-8e2d-3bb502730bf5.png"
+    },
+    {
+        "id": 20,
+        "title": "Мандарин, Іспанія",
+        "basePrice": 14.47,
+        "description": "Мандарин Іспанія увібрав у себе всю енергію середземноморського узбережжя. Справжні, налиті сонцем мандарини з Іспанії — це чисте задоволення.",
+        "rating": 4.2,
+        "discountPercentage": 0,
+        "weight": "100 г",
+        "categories": [
+            "fruits",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/3ae49880-d3c6-4f0a-8684-9cdac9019451.png"
+    },
+    {
+        "id": 21,
+        "title": "Гриби Mushboom Печериці",
+        "basePrice": 44.99,
+        "description": "Гриби Mushboom Печериці різані, 200г",
+        "rating": 2.2,
+        "discountPercentage": 0,
+        "weight": "200 г",
+        "categories": [
+            "vegetables",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/8897de8e-b01b-4d09-aaa1-b02131e00b49.png"
+    },
+    {
+        "id": 22,
+        "title": "Авокадо Puro Gusto",
+        "basePrice": 79.99,
+        "description": "Авокадо Puro Gusto – натуральне стигле авокадо сорту Хасс. Це джерело корисних жирів і просто смак із горіховими нотками.",
+        "rating": 4.8,
+        "discountPercentage": 0,
+        "weight": "1 шт",
+        "categories": [
+            "fruits"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/7370765f-0d5a-43f8-816c-8e29d396e3b2.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Лохина",
+        "basePrice": 199.30,
+        "description": " Лохина Українська з Карпат. До радісних сніданків і моментів, які хочеться посмакувати – свіжа лохина з усіма її вітамінками. Додайте цю кисло-солодку ягоду до пирогів, сирників чи крему. ",
+        "rating": 2.9,
+        "discountPercentage": 0,
+        "weight": "125 г",
+        "categories": [
+            "fruits",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/4acf16b1-3f5f-4e9b-97dd-c27e2583d093.png"
+    },
+    {
+        "id": 24,
+        "title": "Банани",
+        "basePrice": 52.99,
+        "description": "Банани стиглі, солодкі, ідеальні для десертів та смузі.",
+        "rating": 4.5,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "fruits"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/08ae6c61-c902-42e9-ade2-158b43727404.png"
+    },
+    {
+        "id": 25,
+        "title": "Картопля молода",
+        "basePrice": 28.50,
+        "description": "Картопля молода українська, ідеальна для варіння та смаження.",
+        "rating": 4.1,
+        "weight": "2 кг",
+        "discountPercentage": 15,
+        "categories": [
+            "actions",
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/300cc24a-f677-4d82-a6be-f678053d9014.png"
+    },
+    {
+        "id": 26,
+        "title": "Джин Ginbery's, 0,7л",
+        "basePrice": 319.99,
+        "description": "Джин Ginbery's. Спиртовий дистилят ялівцю коріандру, цедри лимону та апельсину, кореня анґеліки, кориці, демінірелізована вода",
+        "rating": 4.6,
+        "volume": "0,7л",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/0f4be7d4-0a6c-4a2e-88ba-a32f100a6e4d.png"
+    },
+    {
+        "id": 27,
+        "title": "Масло вершкове Президент",
+        "basePrice": 72.80,
+        "description": "Масло вершкове 82% жирності, 200 г.",
+        "rating": 4.7,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/89e2918a-9380-4d5a-9660-6e6c32508e78.png"
+    },
+    {
+        "id": 28,
+        "title": "Тістечко Сиркове з ягодами",
+        "basePrice": 135.00,
+        "description": "Тістечко на ванільному бісквіті, просоченому цукровим сиропом з додаванням коньяку. Прошароване кремом пата-а-бомб зі збитими вершками та ніжною сирковою масою.",
+        "rating": 4.3,
+        "weight": "200г",
+        "discountPercentage": 25,
+        "categories": [
+            "actions",
+            "sweets",
+            "desserts"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/a6514574-69ad-4408-9f54-a9be4d5d07a2.png"
+    },
+    {
+        "id": 29,
+        "title": "Макарони Barilla Spaghetti",
+        "basePrice": 38.99,
+        "description": "Макарони спагеті з твердих сортів пшениці, 500 г.",
+        "rating": 4.8,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/78c9fbc0-bfeb-4c49-b853-7b897cd58489.png"
+    },
+    {
+        "id": 30,
+        "title": "Сир кисломолочний Домашній",
+        "basePrice": 55.40,
+        "description": "Сир кисломолочний 9% жирності, 300 г.",
+        "rating": 3.9,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/940a473c-629a-4a1c-b1d9-80290184c3b4.png"
+    },
+    {
+        "id": 31,
+        "title": "Морква українська",
+        "basePrice": 19.99,
+        "description": "Морква свіжа, солодка, вирощена в Україні, ідеальна для салатів і супів.",
+        "rating": 4.3,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/81502e5d-ebe0-49ae-acbf-ed8d9bd98209.png"
+    },
+    {
+        "id": 32,
+        "title": "Цибуля ріпчаста",
+        "basePrice": 22.50,
+        "description": "Цибуля ріпчаста жовта, щільна, відмінної якості.",
+        "rating": 4.4,
+        "weight": "1 кг",
+        "discountPercentage": 20,
+        "categories": [
+            "actions",
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/4c4907a4-7387-4af6-aacc-1a5eaf2d2321.png"
+    },
+    {
+        "id": 33,
+        "title": "Огірок тепличний",
+        "basePrice": 65.80,
+        "description": "Огірки свіжі тепличні, хрумкі та ароматні.",
+        "rating": 3.8,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/bd22a60c-9b79-47d6-8b18-3f6d122457e2.png"
+    },
+    {
+        "id": 34,
+        "title": "Капуста білокачанна",
+        "basePrice": 18.40,
+        "description": "Капуста білокачанна свіжа, щільна головка.",
+        "rating": 4.2,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/38aa43ea-a21b-46e5-a1e6-85ecd680197b.png"
+    },
+    {
+        "id": 35,
+        "title": "Буряк столовий",
+        "basePrice": 24.99,
+        "description": "Буряк свіжий, солодкий, для борщу та салатів.",
+        "rating": 4.5,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/d81ce804-a2ad-448d-9c22-6b46279d8fda.png"
+    },
+    {
+        "id": 36,
+        "title": "Кефір Яготинський 2,5%",
+        "basePrice": 32.99,
+        "description": "Кефір класичний 2,5% жирності, 900 г.",
+        "rating": 4.6,
+        "volume": "900 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/4710fc24-390d-4175-9161-e75171da4287.png"
+    },
+    {
+        "id": 37,
+        "title": "Сметана Президент 15%",
+        "basePrice": 48.50,
+        "description": "Сметана натуральна 15% жирності, 400 г.",
+        "rating": 4.7,
+        "weight": "400 г",
+        "discountPercentage": 15,
+        "categories": [
+            "actions",
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/938e31dd-5fa7-450f-9c46-24f883e8a4d3.png"
+    },
+    {
+        "id": 38,
+        "title": "Сир твердий Гауда",
+        "basePrice": 112.00,
+        "description": "Сир Гауда молодий, 45% жирності, 200 г.",
+        "rating": 4.4,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/b3cbdc2e-3c7f-4734-a66b-e3a8e1f4e8cf.jpg"
+    },
+    {
+        "id": 39,
+        "title": "Батон нарізний",
+        "basePrice": 18.99,
+        "description": "Батон пшеничний нарізний свіжий, 400 г.",
+        "rating": 4.1,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/d27d3257-9f35-4ad2-a893-5ba78b99af7a.png"
+    },
+    {
+        "id": 40,
+        "title": "Круасан з шоколадом",
+        "basePrice": 29.80,
+        "description": "Круасан вершковий з шоколадною начинкою, 70 г.",
+        "rating": 4.3,
+        "weight": "70 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery",
+            "desserts",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/1aed3b5e-9f30-439e-8cca-7161b49c645c.png"
+    },
+    {
+        "id": 41,
+        "title": "Мінеральна вода Моршинська негазована",
+        "basePrice": 18.50,
+        "description": "Вода мінеральна Моршинська, 1,5 л.",
+        "rating": 4.8,
+        "volume": "1.5 л",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/0500787d-9271-4e40-9778-bb6aabba1edf.jpg"
+    },
+    {
+        "id": 42,
+        "title": "Чай зелений Lipton",
+        "basePrice": 65.99,
+        "description": "Чай зелений в пакетиках, 20 шт.",
+        "rating": 4.2,
+        "weight": "40 г",
+        "discountPercentage": 25,
+        "categories": [
+            "actions",
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/1f279282-8219-46a9-ba6e-7c00904a6935.png"
+    },
+    {
+        "id": 43,
+        "title": "Курячі крильця охолоджені",
+        "basePrice": 89.90,
+        "description": "Крильця курячі охолоджені, 1 кг.",
+        "rating": 3.9,
+        "weight": "1 кг",
+        "discountPercentage": 30,
+        "categories": [
+            "actions",
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/2f963517-d7bd-4672-9fab-e369065e3869.png"
+    },
+    {
+        "id": 44,
+        "title": "Свинина лопатка охолоджена",
+        "basePrice": 169.00,
+        "description": "Свинина лопатка без кістки, охолоджена.",
+        "rating": 4.5,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/c115b52e-7a9b-4cd9-90d1-ff08eb1c6f67.png"
+    },
+    {
+        "id": 45,
+        "title": "Риба скумбрія свіжоморожена",
+        "basePrice": 124.99,
+        "description": "Скумбрія атлантична свіжоморожена, нечищена, 1 кг.",
+        "rating": 4.0,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "fish",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/d346d681-d2b7-45da-9461-f0271196e848.png"
+    },
+    {
+        "id": 46,
+        "title": "Крупа гречана",
+        "basePrice": 45.50,
+        "description": "Гречка ядриця, вищого ґатунку, 800 г.",
+        "rating": 4.7,
+        "weight": "800 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e4522203-1714-4567-a2ff-4c20aa118cb2.png"
+    },
+    {
+        "id": 47,
+        "title": "Рис басматі",
+        "basePrice": 78.99,
+        "description": "Рис басматі довгозернистий, 500 г.",
+        "rating": 4.6,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e03545bb-568e-4af6-90e6-d316879cb0d3.png"
+    },
+    {
+        "id": 48,
+        "title": "Макарони спіральки",
+        "basePrice": 27.80,
+        "description": "Макаронні вироби спіральки з твердих сортів пшениці, 500 г.",
+        "rating": 4.4,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/1eb00c8f-9763-49ef-a6f1-5481172514ae.png"
+    },
+    {
+        "id": 49,
+        "title": "Шоколад Milka молочний",
+        "basePrice": 55.99,
+        "description": "Шоколад молочний з цілим мигдалем, 100 г.",
+        "rating": 4.8,
+        "weight": "100 г",
+        "discountPercentage": 0,
+        "categories": [
+            "sweets",
+            "desserts"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/8dc1fa2f-39d5-4e06-9c40-9c10415d470b.png"
+    },
+    {
+        "id": 50,
+        "title": "Печиво Oreo класичне",
+        "basePrice": 49.90,
+        "description": "Печиво з шоколадним кремом, 176 г.",
+        "rating": 4.2,
+        "weight": "176 г",
+        "discountPercentage": 18,
+        "categories": [
+            "actions",
+            "sweets",
+            "desserts"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/13f6ba9e-d38c-4905-8d25-01fac29e39bc.png"
+    },
+    {
+        "id": 51,
+        "title": "Яйця курячі С0 (15 шт)",
+        "basePrice": 89.99,
+        "description": "Яйця столові категорія С0, упаковка 10 шт.",
+        "rating": 4.5,
+        "weight": "10 шт",
+        "discountPercentage": 0,
+        "categories": [
+            "eggs"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/c79d82cf-0034-4232-bba2-54e8f2401489.png"
+    },
+    {
+        "id": 52,
+        "title": "Масло селянське 72%",
+        "basePrice": 68.40,
+        "description": "Масло вершкове селянське, 200 г.",
+        "rating": 4.3,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/20e89912-72e5-42ba-9cb5-31f53741691c.png"
+    },
+    {
+        "id": 53,
+        "title": "Лимон",
+        "basePrice": 39.99,
+        "description": "Лимони свіжі, соковиті, 1 кг.",
+        "rating": 4.6,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "fruits"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/b539744c-f560-401b-92f8-30c70a04960a.png"
+    },
+    {
+        "id": 54,
+        "title": "Ківі",
+        "basePrice": 89.50,
+        "description": "Ківі стигле, 500 г.",
+        "rating": 4.1,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "fruits",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e8efdfa1-796c-4d5d-839a-a5526361dceb.png"
+    },
+    {
+        "id": 55,
+        "title": "Груша конференція",
+        "basePrice": 72.80,
+        "description": "Груша Конференція солодка, 1 кг.",
+        "rating": 4.4,
+        "weight": "1 кг",
+        "discountPercentage": 12,
+        "categories": [
+            "actions",
+            "fruits"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/073a6e6b-e95b-4f63-a56b-8af61e9b2a7d.png"
+    },
+    {
+        "id": 56,
+        "title": "Філе лосося охолоджене",
+        "basePrice": 289.00,
+        "description": "Філе лосося норвезького охолоджене, 200 г.",
+        "rating": 4.7,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "fish"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/41f657f9-1465-4d31-ba83-ea77984394fa.png"
+    },
+    {
+        "id": 57,
+        "title": "Ковбаса варена Молочна",
+        "basePrice": 145.99,
+        "description": "Ковбаса варена Молочна вищого ґатунку, 400 г.",
+        "rating": 3.7,
+        "weight": "400 г",
+        "discountPercentage": 35,
+        "categories": [
+            "actions",
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/b56da4bc-155a-4095-a758-7e73ec1b916e.png"
+    },
+    {
+        "id": 58,
+        "title": "Сосиски Київські",
+        "basePrice": 98.50,
+        "description": "Сосиски напівкопчені Київські, 400 г.",
+        "rating": 4.0,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/80eb9cfa-19f1-4a43-accb-28296c577c3d.png"
+    },
+    {
+        "id": 59,
+        "title": "Пельмені з яловичиною",
+        "basePrice": 112.00,
+        "description": "Пельмені заморожені з яловичиною, 500 г.",
+        "rating": 3.5,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "frozen",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/11d34eb4-62d7-4baf-a9a9-0da057dd4f80.png"
+    },
+    {
+        "id": 60,
+        "title": "Вареники з вишнею",
+        "basePrice": 89.99,
+        "description": "Вареники заморожені з вишнею, 500 г.",
+        "rating": 4.2,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "frozen"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/1032ca54-442b-4d3c-99a2-57e13257f382.png"
+    },
+    {
+        "id": 61,
+        "title": "Цукор білий",
+        "basePrice": 32.40,
+        "description": "Цукор-пісок білий, 1 кг.",
+        "rating": 4.9,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/5059fa4b-641f-42ce-a323-08674f046505.png"
+    },
+    {
+        "id": 62,
+        "title": "Олія соняшникова",
+        "basePrice": 68.99,
+        "description": "Олія соняшникова рафінована, 1 л.",
+        "rating": 4.8,
+        "volume": "1 л",
+        "discountPercentage": 10,
+        "categories": [
+            "actions",
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/f450727a-b354-44d8-8b6a-0086b5545450.png"
+    },
+    {
+        "id": 63,
+        "title": "Майонез Королівський",
+        "basePrice": 42.80,
+        "description": "Майонез класичний 67%, 300 г.",
+        "rating": 4.1,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/c4cf384c-7997-4d24-b791-423300448259.png"
+    },
+    {
+        "id": 64,
+        "title": "Кетчуп Торчин",
+        "basePrice": 38.50,
+        "description": "Кетчуп томатний класичний, 250 г.",
+        "rating": 4.3,
+        "weight": "250 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/b12ff592-e40e-486a-923a-270019df4e07.png"
+    },
+    {
+        "id": 65,
+        "title": "Чіпси Lay's класичні",
+        "basePrice": 55.99,
+        "description": "Чіпси картопляні зі смаком солі, 150 г.",
+        "rating": 3.9,
+        "weight": "150 г",
+        "discountPercentage": 0,
+        "categories": [
+            "snacks"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/558f94aa-3014-4a0f-88c5-334123a204d1.png"
+    },
+    {
+        "id": 66,
+        "title": "Горішки арахіс смажений",
+        "basePrice": 79.90,
+        "description": "Арахіс смажений солоний, 200 г.",
+        "rating": 4.0,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "snacks"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/f7701872-4182-4842-8079-9256d1294e72.png"
+    },
+    {
+        "id": 67,
+        "title": "Банан сушений",
+        "basePrice": 94.50,
+        "description": "Банани сушені натуральні, 200 г.",
+        "rating": 4.4,
+        "weight": "200 г",
+        "discountPercentage": 22,
+        "categories": [
+            "actions",
+            "sweets"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/690421ed-c138-4691-96c8-31afacc30c23.png"
+    },
+    {
+        "id": 68,
+        "title": "Йогурт питний Активіа полуниця",
+        "basePrice": 28.99,
+        "description": "Йогурт питний з полуницею, 290 г.",
+        "rating": 3.8,
+        "weight": "290 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/16fb15c9-e803-4fb3-b67b-598c4d94281a.png"
+    },
+    {
+        "id": 69,
+        "title": "Сир плавлений Президент",
+        "basePrice": 52.40,
+        "description": "Сир плавлений вершковий, 140 г.",
+        "rating": 4.2,
+        "weight": "140 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e3e9a6f6-7f1e-4825-bfcf-b646d6862e47.png"
+    },
+    {
+        "id": 70,
+        "title": "Хлібці житні",
+        "basePrice": 35.99,
+        "description": "Хлібці житні тонкі, 100 г.",
+        "rating": 4.1,
+        "weight": "100 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/61ef2c40-353e-4684-a6d7-e22138b32721.png"
+    },
+    {
+        "id": 71,
+        "title": "Кава мелена Jacobs",
+        "basePrice": 189.00,
+        "description": "Кава мелена Jacobs Kronung, 250 г.",
+        "rating": 4.6,
+        "weight": "250 г",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/84235404-436b-4e73-8521-31ad0b434675.png"
+    },
+    {
+        "id": 72,
+        "title": "Сік яблучний Садочок",
+        "basePrice": 42.80,
+        "description": "Сік яблучний натуральний, 1 л.",
+        "rating": 4.0,
+        "volume": "1 л",
+        "discountPercentage": 28,
+        "categories": [
+            "actions",
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/68f5b7aa-7500-473b-8983-fdde4e9e8656.png"
+    },
+    {
+        "id": 73,
+        "title": "Фарш курячий",
+        "basePrice": 98.50,
+        "description": "Фарш з курячого філе, охолоджений, 500 г.",
+        "rating": 3.6,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/8c435b92-3660-400c-b521-ce01d5a8f7fb.png"
+    },
+    {
+        "id": 74,
+        "title": "Оселедець філе в олії",
+        "basePrice": 65.99,
+        "description": "Філе оселедця атлантичного в олії, 250 г.",
+        "rating": 4.3,
+        "weight": "250 г",
+        "discountPercentage": 0,
+        "categories": [
+            "fish"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/b0aa3733-88c6-417e-84e8-c83e3b4c5ee0.png"
+    },
+    {
+        "id": 75,
+        "title": "Конфітюр полуничний",
+        "basePrice": 48.90,
+        "description": "Конфітюр полуничний, 370 г.",
+        "rating": 4.5,
+        "weight": "370 г",
+        "discountPercentage": 0,
+        "categories": [
+            "sweets"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/d149b0e0-914e-4add-83d2-2df6798cf15d.png"
+    },
+    {
+        "id": 76,
+        "title": "Мюслі з фруктами",
+        "basePrice": 67.50,
+        "description": "Мюслі з сухофруктами та горіхами, 400 г.",
+        "rating": 4.2,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/483d8801-3cb8-41ec-9548-72b1478d05b3.png"
+    },
+    {
+        "id": 77,
+        "title": "Булочка з корицею",
+        "basePrice": 22.99,
+        "description": "Булочка здобна з корицею та глазур'ю, 80 г.",
+        "rating": 4.4,
+        "weight": "80 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery",
+            "desserts"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e3e771cd-8e62-4813-8bc7-7e5c10121b5c.png"
+    },
+    {
+        "id": 78,
+        "title": "Томатна паста",
+        "basePrice": 29.80,
+        "description": "Томатна паста концентрована, 500 г.",
+        "rating": 4.6,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/87d3b995-1f7f-4ee1-966f-2a634a1b13ae.png"
+    },
+    {
+        "id": 79,
+        "title": "Горошок зелений консервований",
+        "basePrice": 35.40,
+        "description": "Горошок зелений молодий, 400 г.",
+        "rating": 4.1,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/231fae43-4bef-488b-8671-118fee523cba.png"
+    },
+    {
+        "id": 80,
+        "title": "Кукурудза консервована",
+        "basePrice": 38.99,
+        "description": "Кукурудза солодка консервована, 340 г.",
+        "rating": 4.3,
+        "weight": "340 г",
+        "discountPercentage": 15,
+        "categories": [
+            "actions",
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/4304b0f6-3dc3-40af-8b04-57eb32026fe6.png"
+    },
+    {
+        "id": 81,
+        "title": "Апельсини Мона Ліза",
+        "basePrice": 68.50,
+        "description": "Апельсини соковиті Мона Ліза, Іспанія, 1 кг.",
+        "rating": 4.5,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "fruits"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/fc60cc36-45f7-41af-9445-933dcc9580ca.png"
+    },
+    {
+        "id": 82,
+        "title": "Виноград червоний",
+        "basePrice": 109.90,
+        "description": "Виноград червоний безкісточковий, 500 г.",
+        "rating": 4.0,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "fruits",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/6e569ff1-bbe9-4723-8382-deed4d1738f8.png"
+    },
+    {
+        "id": 83,
+        "title": "Салат айсберг",
+        "basePrice": 45.99,
+        "description": "Салат айсберг свіжий, 150 г.",
+        "rating": 3.9,
+        "weight": "150 г",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/8b9886a3-6517-4062-a75f-b751a963be00.png"
+    },
+    {
+        "id": 84,
+        "title": "Сир Рікотта",
+        "basePrice": 67.80,
+        "description": "Сир Рікотта м'який, 250 г.",
+        "rating": 4.4,
+        "weight": "250 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/9cd12348-4fbf-479e-8e84-13994eb21fb5.jpg"
+    },
+    {
+        "id": 85,
+        "title": "Хліб цільнозерновий",
+        "basePrice": 32.50,
+        "description": "Хліб цільнозерновий з насінням, 400 г.",
+        "rating": 4.7,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/bae57e44-5ac4-42c6-b98a-0ff792deda6e.png"
+    },
+    {
+        "id": 86,
+        "title": "Coca-Cola",
+        "basePrice": 48.99,
+        "description": "Напій Coca-Cola класичний, 1,25 л.",
+        "rating": 4.2,
+        "volume": "1,25 л",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/3bc47803-56cf-4de5-98d9-b07e23d23869.png"
+    },
+    {
+        "id": 87,
+        "title": "Піца Маргарита",
+        "basePrice": 89.00,
+        "description": "Піца Маргарита, 330 г.",
+        "rating": 3.8,
+        "weight": "330 г",
+        "discountPercentage": 20,
+        "categories": [
+            "actions"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/be58b3f0-19d0-47fc-a549-38cbd78c072d.png"
+    },
+    {
+        "id": 88,
+        "title": "Котлети курячі заморожені",
+        "basePrice": 124.50,
+        "description": "Котлети курячі домашні, 500 г.",
+        "rating": 3.7,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "frozen",
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/868960f9-6c1b-4b06-b2da-aba5cd74a1b5.jpg"
+    },
+    {
+        "id": 89,
+        "title": "Мед натуральний гречаний",
+        "basePrice": 145.99,
+        "description": "Мед гречаний натуральний, 500 г.",
+        "rating": 4.8,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "sweets"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/fc4aa7f1-58bb-42e1-b529-19e7c781fb91.png"
+    },
+    {
+        "id": 90,
+        "title": "Горіхи волоські",
+        "basePrice": 189.00,
+        "description": "Горіхи волоські очищені, 200 г.",
+        "rating": 4.6,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "snacks"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/810b71a8-8056-4c05-854e-4e1f1b43f43f.png"
+    },
+    {
+        "id": 91,
+        "title": "Сухофрукти мікс",
+        "basePrice": 135.50,
+        "description": "Суміш сухофруктів (курага, чорнослив, родзинки), 300 г.",
+        "rating": 4.3,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "sweets",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/d039fa66-2ca5-4ce1-a711-854b67b2233e.png"
+    },
+    {
+        "id": 92,
+        "title": "Чай чорний Ahmad",
+        "basePrice": 72.99,
+        "description": "Чай чорний англійський сніданок, 100 пакетиків.",
+        "rating": 4.5,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/3768ad08-f2e7-4bb9-98c2-a961d2d67b90.png"
+    },
+    {
+        "id": 93,
+        "title": "Сир моцарелла",
+        "basePrice": 78.40,
+        "description": "Сир моцарелла міні, 200 г.",
+        "rating": 4.4,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/158eea7c-c261-4a11-9dd5-328b7fdee92b.png"
+    },
+    {
+        "id": 94,
+        "title": "Булгур",
+        "basePrice": 52.80,
+        "description": "Крупа булгур, 500 г.",
+        "rating": 4.2,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/592bd211-38ce-4a29-82f2-0b2f5266ce2a.png"
+    },
+    {
+        "id": 95,
+        "title": "Соус соєвий",
+        "basePrice": 45.99,
+        "description": "Соус соєвий класичний, 250 мл.",
+        "rating": 4.6,
+        "volume": "250 мл",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/47d44192-ac33-4a3c-a8eb-615c280b9182.png"
+    },
+    {
+        "id": 96,
+        "title": "Гірчиця",
+        "basePrice": 28.50,
+        "description": "Гірчиця столова, 200 г.",
+        "rating": 4.1,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/3ef6e801-772d-458c-bd5a-bf815d1bafbf.png"
+    },
+    {
+        "id": 97,
+        "title": "Філе тріски",
+        "basePrice": 165.00,
+        "description": "Філе тріски свіжоморожене, 400 г.",
+        "rating": 4.3,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "fish"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/470a6b6f-c0bf-464c-bfd9-9f9514668e9a.png"
+    },
+    {
+        "id": 98,
+        "title": "Шинка куряча",
+        "basePrice": 124.90,
+        "description": "Шинка з курки варена, 300 г.",
+        "rating": 3.9,
+        "weight": "300 г",
+        "discountPercentage": 25,
+        "categories": [
+            "actions",
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/21793ca2-ee6f-475c-9cf3-4ab060dd326c.png"
+    },
+    {
+        "id": 99,
+        "title": "Тістечко Наполеон",
+        "basePrice": 38.99,
+        "description": "Тістечко Наполеон класичне, 120 г.",
+        "rating": 4.5,
+        "weight": "120 г",
+        "discountPercentage": 0,
+        "categories": [
+            "desserts"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/98f1059d-c65f-41b2-88d4-c46992a2ffd5.png"
+    },
+    {
+        "id": 100,
+        "title": "Морозиво пломбір",
+        "basePrice": 49.80,
+        "description": "Морозиво пломбір ванільне у вафельному стаканчику, 80 г.",
+        "rating": 4.2,
+        "weight": "80 г",
+        "discountPercentage": 0,
+        "categories": [
+            "desserts",
+            "frozen",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/344264a8-095e-44be-907b-033bafe1afcb.png"
+    },
+    {
+        "id": 101,
+        "title": "Перець болгарський червоний",
+        "basePrice": 89.99,
+        "description": "Перець болгарський солодкий червоний, соковитий, 500 г.",
+        "rating": 4.4,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e25cb6f0-f136-4e13-b172-f0d250bc63d1.jpg"
+    },
+    {
+        "id": 102,
+        "title": "Броколі свіжа",
+        "basePrice": 65.50,
+        "description": "Капуста броколі свіжа, 400 г.",
+        "rating": 4.3,
+        "weight": "400 г",
+        "discountPercentage": 18,
+        "categories": [
+            "actions",
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/54102174-450a-4fa5-bb22-ec8bdc976617.png"
+    },
+    {
+        "id": 103,
+        "title": "Цвітна капуста",
+        "basePrice": 52.80,
+        "description": "Капуста цвітна свіжа, 600 г.",
+        "rating": 4.1,
+        "weight": "600 г",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/620e7ba9-a86f-48fc-8b0f-2281f08df892.png"
+    },
+    {
+        "id": 104,
+        "title": "Редиска",
+        "basePrice": 29.99,
+        "description": "Редиска свіжа, хрумка, 300 г.",
+        "rating": 3.9,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/39c0f283-0912-48b0-b398-c54804580043.png"
+    },
+    {
+        "id": 105,
+        "title": "Молоко ультрапастеризоване 3,2%",
+        "basePrice": 36.40,
+        "description": "Молоко ультрапастеризоване 3,2%, 950 мл.",
+        "rating": 4.5,
+        "volume": "950 мл",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/85aa8bbd-a769-405d-9ce7-81fffc8c4906.png"
+    },
+    {
+        "id": 106,
+        "title": "Ряжанка домашня 4%",
+        "basePrice": 41.99,
+        "description": "Ряжанка натуральна 4% жирності, 400 г.",
+        "rating": 4.6,
+        "volume": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/320b5088-17dc-4992-bc07-1f224e41dd64.png"
+    },
+    {
+        "id": 107,
+        "title": "Сир Фета",
+        "basePrice": 98.50,
+        "description": "Сир Фета класичний, 200 г.",
+        "rating": 4.4,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/2a238445-fa23-4395-b164-2e3e7f075bbc.png"
+    },
+    {
+        "id": 108,
+        "title": "Хліб бородинський",
+        "basePrice": 27.80,
+        "description": "Хліб бородинський з насінням, 450 г.",
+        "rating": 4.7,
+        "weight": "450 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/4338c4ef-9ded-4c9b-bf31-141800e43602.png"
+    },
+    {
+        "id": 109,
+        "title": "Багет французький",
+        "basePrice": 24.99,
+        "description": "Багет французький традиційний, 250 г.",
+        "rating": 4.2,
+        "weight": "250 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/5501f0b1-c43a-4024-a14c-1ff042b15d4f.png"
+    },
+    {
+        "id": 110,
+        "title": "Кекс шоколадний",
+        "basePrice": 48.90,
+        "description": "Кекс шоколадний з горіхами, 300 г.",
+        "rating": 4.3,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery",
+            "desserts"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/80dc6824-5cd7-427a-9d1a-1df10f9a3324.png"
+    },
+    {
+        "id": 111,
+        "title": "Вода BonAqua негазована",
+        "basePrice": 15.99,
+        "description": "Вода питна негазована BonAqua, 1 л.",
+        "rating": 4.8,
+        "volume": "1 л",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/995db040-6fe7-4871-a34b-3f991950f767.png"
+    },
+    {
+        "id": 112,
+        "title": "Напій енергетичний Red Bull",
+        "basePrice": 65.50,
+        "description": "Енергетичний напій Red Bull, 250 мл.",
+        "rating": 3.8,
+        "volume": "250 мл",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/008394d0-0110-4c93-b3bf-aca6be399118.png"
+    },
+    {
+        "id": 113,
+        "title": "Філе індички",
+        "basePrice": 179.00,
+        "description": "Філе індички охолоджене, 500 г.",
+        "rating": 4.5,
+        "weight": "500 г",
+        "discountPercentage": 22,
+        "categories": [
+            "actions",
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/577ef350-7491-47bc-9649-d872369f1e7d.png"
+    },
+    {
+        "id": 114,
+        "title": "Яловича вирізка",
+        "basePrice": 289.99,
+        "description": "Вирізка яловича охолоджена преміум, 300 г.",
+        "rating": 4.8,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/433c9233-e5fa-4ca1-817d-126ae3840ec8.jpg"
+    },
+    {
+        "id": 115,
+        "title": "Мінтай свіжоморожений",
+        "basePrice": 89.90,
+        "description": "Філе мінтая свіжоморожене, 1 кг.",
+        "rating": 4.0,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "fish"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/29977940-1bb6-462e-a76d-c9574f85e808.png"
+    },
+    {
+        "id": 116,
+        "title": "Крупа перлова",
+        "basePrice": 24.50,
+        "description": "Перлова крупа, 800 г.",
+        "rating": 4.3,
+        "weight": "800 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/90b32cce-0ab1-4f5f-ad2e-24a2f243516c.png"
+    },
+    {
+        "id": 117,
+        "title": "Квасоля червона",
+        "basePrice": 52.80,
+        "description": "Квасоля червона суха, 500 г.",
+        "rating": 4.6,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/89cdd2da-f75b-471c-973d-3252b4ec4a2e.png"
+    },
+    {
+        "id": 118,
+        "title": "Спагеті Grand Di Pasta",
+        "basePrice": 35.99,
+        "description": "Спагеті преміум з твердих сортів пшениці, 500 г.",
+        "rating": 4.7,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e756cebb-0470-481d-b703-34a7afc67df5.png"
+    },
+    {
+        "id": 119,
+        "title": "Шоколадний батончик Snickers",
+        "basePrice": 28.50,
+        "description": "Батончик Snickers класичний, 50 г.",
+        "rating": 4.2,
+        "weight": "50 г",
+        "discountPercentage": 0,
+        "categories": [
+            "sweets"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/17952d88-9555-422c-b168-eefee1b9bc46.png"
+    },
+    {
+        "id": 120,
+        "title": "Мармелад фруктовий",
+        "basePrice": 67.99,
+        "description": "Мармелад асорті фруктовий, 300 г.",
+        "rating": 3.9,
+        "weight": "300 г",
+        "discountPercentage": 15,
+        "categories": [
+            "actions",
+            "sweets"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/9ca57169-2c19-44b1-bd43-4ac9aec7fb18.png"
+    },
+    {
+        "id": 121,
+        "title": "Яйця перепелині",
+        "basePrice": 58.90,
+        "description": "Яйця перепелині свіжі, 20 шт.",
+        "rating": 4.5,
+        "weight": "20 шт",
+        "discountPercentage": 0,
+        "categories": [
+            "eggs"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/ff7e47d9-bd6b-4007-a98a-bffa17f6aec6.png"
+    },
+    {
+        "id": 122,
+        "title": "Маргарин для випічки",
+        "basePrice": 39.80,
+        "description": "Маргарин вершковий для випічки, 200 г.",
+        "rating": 4.1,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/a8ab0779-cdde-4948-99bf-65c6322b1d5f.png"
+    },
+    {
+        "id": 123,
+        "title": "Гранат",
+        "basePrice": 95.50,
+        "description": "Гранат стиглий, соковитий, 1 шт (приблизно 400 г).",
+        "rating": 4.3,
+        "weight": "1 шт",
+        "discountPercentage": 0,
+        "categories": [
+            "fruits"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e8b671ba-f7b3-4e6a-837a-6040a41c1a85.png"
+    },
+    {
+        "id": 124,
+        "title": "Манго стигле",
+        "basePrice": 129.00,
+        "description": "Манго стигле, солодке, 1 шт.",
+        "rating": 4.4,
+        "weight": "1 шт",
+        "discountPercentage": 0,
+        "categories": [
+            "fruits",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/51c31bd0-f1a5-44b7-9bad-25ab0611489e.png"
+    },
+    {
+        "id": 125,
+        "title": "Ананас свіжий",
+        "basePrice": 89.99,
+        "description": "Ананас свіжий, стиглий, 1 шт.",
+        "rating": 4.2,
+        "weight": "1 шт",
+        "discountPercentage": 30,
+        "categories": [
+            "actions",
+            "fruits"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/ed244be8-f164-4f80-864d-5a2eb8e8a79a.png"
+    },
+    {
+        "id": 126,
+        "title": "Філе сьомги",
+        "basePrice": 349.00,
+        "description": "Філе сьомги норвезької охолоджене, 300 г.",
+        "rating": 4.9,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "fish"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/063da9d6-f287-42a5-b33a-5c1ba69984d9.png"
+    },
+    {
+        "id": 127,
+        "title": "Ковбаса сервелат",
+        "basePrice": 189.50,
+        "description": "Ковбаса сервелат преміум, 300 г.",
+        "rating": 4.3,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/4275425e-715b-4d6f-87ec-b76a66919443.png"
+    },
+    {
+        "id": 128,
+        "title": "Сардельки молочні",
+        "basePrice": 112.00,
+        "description": "Сардельки молочні вищого ґатунку, 400 г.",
+        "rating": 3.8,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/093b7176-6954-471c-8709-085cd9d8eaa9.jpg"
+    },
+    {
+        "id": 129,
+        "title": "Пельмені з свининою",
+        "basePrice": 135.99,
+        "description": "Пельмені заморожені з свининою та яловичиною, 1 кг.",
+        "rating": 3.6,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "frozen"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/d49d0e9f-4f96-43d8-906f-d7cb9ba801a8.png"
+    },
+    {
+        "id": 130,
+        "title": "Вареники з картоплею",
+        "basePrice": 79.90,
+        "description": "Вареники з картоплею та смаженою цибулею, 500 г.",
+        "rating": 4.4,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "frozen"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/863ec76a-3d3e-495c-874e-f59000cb484f.png"
+    },
+    {
+        "id": 131,
+        "title": "Борошно пшеничне",
+        "basePrice": 28.50,
+        "description": "Борошно пшеничне вищого ґатунку, 2 кг.",
+        "rating": 4.8,
+        "weight": "2 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/b1f23bad-62ea-4cc7-bf3a-a38bf167d1c0.png"
+    },
+    {
+        "id": 132,
+        "title": "Оцет яблучний",
+        "basePrice": 45.99,
+        "description": "Оцет яблучний натуральний, 500 мл.",
+        "rating": 4.5,
+        "volume": "500 мл",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/7f2bf797-a1c9-4094-b53e-6d3fe440cf41.png"
+    },
+    {
+        "id": 133,
+        "title": "Соус барбекю",
+        "basePrice": 52.80,
+        "description": "Соус барбекю гострий, 250 мл.",
+        "rating": 4.2,
+        "volume": "250 мл",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e0f2cb3b-6239-4939-a374-19504f26e7d1.png"
+    },
+    {
+        "id": 134,
+        "title": "Чіпси Pringles оригінал",
+        "basePrice": 72.99,
+        "description": "Чіпси Pringles зі смаком оригінал, 165 г.",
+        "rating": 4.0,
+        "weight": "165 г",
+        "discountPercentage": 0,
+        "categories": [
+            "snacks"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/3ff7a652-1952-46d6-b0ae-0cd4bfb53696.png"
+    },
+    {
+        "id": 135,
+        "title": "Насіння соняшнику",
+        "basePrice": 48.50,
+        "description": "Насіння соняшнику смажене солоне, 200 г.",
+        "rating": 3.9,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "snacks"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/50bcb122-9b62-43c1-ad4a-70c364b1bb80.png"
+    },
+    {
+        "id": 136,
+        "title": "Курага",
+        "basePrice": 115.00,
+        "description": "Курага натуральна без кісточки, 200 г.",
+        "rating": 4.6,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "sweets"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/34509825-2083-4877-add9-824ecb6af482.png"
+    },
+    {
+        "id": 137,
+        "title": "Йогурт грецький",
+        "basePrice": 55.99,
+        "description": "Йогурт грецький натуральний 10%, 400 г.",
+        "rating": 4.3,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/208e6a7f-3309-40a0-9acc-acac46138ec1.png"
+    },
+    {
+        "id": 138,
+        "title": "Сир пармезан",
+        "basePrice": 145.80,
+        "description": "Сир пармезан тертий, 150 г.",
+        "rating": 4.7,
+        "weight": "150 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/f7c3fa08-19a3-41b6-8b23-205e9170e432.png"
+    },
+    {
+        "id": 139,
+        "title": "Пиріг з яблуками",
+        "basePrice": 68.50,
+        "description": "Пиріг домашній з яблуками, 500 г.",
+        "rating": 4.4,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery",
+            "desserts"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/8a28f183-6ab4-4775-82c3-fccf7057c56a.png"
+    },
+    {
+        "id": 140,
+        "title": "Кава в зернах Lavazza",
+        "basePrice": 249.00,
+        "description": "Кава в зернах Lavazza Crema e Aroma, 250 г.",
+        "rating": 4.8,
+        "weight": "250 г",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/40132b96-4e17-4da6-b62d-eb6241d6eb24.png"
+    },
+    {
+        "id": 141,
+        "title": "Сік мультивітамін",
+        "basePrice": 48.90,
+        "description": "Сік мультивітамін з м’якоттю, 1 л.",
+        "rating": 4.1,
+        "volume": "1 л",
+        "discountPercentage": 25,
+        "categories": [
+            "actions",
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/2a742e37-a543-4c4f-929f-3da0f1e4e70f.png"
+    },
+    {
+        "id": 142,
+        "title": "Фарш яловичий",
+        "basePrice": 165.00,
+        "description": "Фарш яловичий охолоджений, 400 г.",
+        "rating": 4.2,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/9275f679-c546-4536-b282-64e521c298f4.jpg"
+    },
+    {
+        "id": 143,
+        "title": "Ікра червона",
+        "basePrice": 289.99,
+        "description": "Ікра лососева зерниста, 100 г.",
+        "rating": 4.9,
+        "weight": "100 г",
+        "discountPercentage": 0,
+        "categories": [
+            "fish"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/f793ddb4-f240-40be-ac6c-ce4a24e1f96f.png"
+    },
+    {
+        "id": 144,
+        "title": "Кукурудзяні пластівці",
+        "basePrice": 49.80,
+        "description": "Пластівці кукурудзяні солодкі, 500 г.",
+        "rating": 4.0,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/12cab3b1-6d9d-4ba2-b794-96f6afa52165.png"
+    },
+    {
+        "id": 145,
+        "title": "Гречка зелена",
+        "basePrice": 68.50,
+        "description": "Гречка зелена необсмажена, 500 г.",
+        "rating": 4.5,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/afd913bc-168d-4fa9-8fc3-8578c79c30da.png"
+    },
+    {
+        "id": 146,
+        "title": "Чорний хліб",
+        "basePrice": 26.99,
+        "description": "Хліб чорний житній, 500 г.",
+        "rating": 4.6,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/de813a56-f4e0-47c3-888b-8df3dd41fe6e.png"
+    },
+    {
+        "id": 147,
+        "title": "Пиво Heineken",
+        "basePrice": 52.80,
+        "description": "Пиво Heineken світле, 0,5 л.",
+        "rating": 4.1,
+        "volume": "0.5 л",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/6a9ae5d1-5e3a-43cd-bcec-c9693f0659c0.png"
+    },
+    {
+        "id": 148,
+        "title": "Морозиво Magnat Yogurt Mango&Passion fruit",
+        "basePrice": 68.99,
+        "description": "Морозиво Magnat Yogurt Mango&Passion fruit, 350 мл.",
+        "rating": 4.7,
+        "weight": "350 мл",
+        "discountPercentage": 0,
+        "categories": [
+            "desserts",
+            "frozen"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/f05d7f01-253f-4664-917d-8aa3a8cadab7.png"
+    },
+    {
+        "id": 149,
+        "title": "Тірамісу десерт",
+        "basePrice": 89.50,
+        "description": "Десерт тірамісу класичний, 150 г.",
+        "rating": 4.3,
+        "weight": "150 г",
+        "discountPercentage": 0,
+        "categories": [
+            "desserts"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/27657ecb-ab5e-4e36-b4e1-5f79a0b2e021.png"
+    },
+    {
+        "id": 150,
+        "title": "Салат «Цезар» готовий",
+        "basePrice": 95.99,
+        "description": "Салат Цезар з куркою та соусом, 250 г.",
+        "rating": 3.7,
+        "weight": "250 г",
+        "discountPercentage": 20,
+        "categories": [
+            "actions",
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/1e208f34-87aa-4137-ab6b-71d348fa5c33.png"
+    },
+    {
+        "id": 151,
+        "title": "Кабачок молодий",
+        "basePrice": 42.80,
+        "description": "Кабачок молодий свіжий, ідеальний для смаження та запікання, 1 кг.",
+        "rating": 4.4,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/fb87deaf-eec3-467f-9544-1dc5aeed93f0.png"
+    },
+    {
+        "id": 152,
+        "title": "Баклажан",
+        "basePrice": 58.99,
+        "description": "Баклажани свіжі, щільні, 1 кг.",
+        "rating": 4.2,
+        "weight": "1 кг",
+        "discountPercentage": 12,
+        "categories": [
+            "actions",
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/7fe1d8a9-1eba-49f0-ab9a-3acbae148f64.png"
+    },
+    {
+        "id": 153,
+        "title": "Часник",
+        "basePrice": 79.50,
+        "description": "Часник український, ароматний, 200 г.",
+        "rating": 4.6,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/8e0d5c36-b1ff-4f63-b95d-f25cfb4bcb6a.png"
+    },
+    {
+        "id": 154,
+        "title": "Зелень кріп",
+        "basePrice": 19.99,
+        "description": "Кріп свіжий, ароматний, 100 г.",
+        "rating": 4.3,
+        "weight": "100 г",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/f8ae59a1-fb9c-4e92-ab3f-3918f8636fbb.png"
+    },
+    {
+        "id": 155,
+        "title": "Молоко безлактозне",
+        "basePrice": 48.90,
+        "description": "Молоко безлактозне 2,5%, 1 л.",
+        "rating": 4.5,
+        "volume": "1 л",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/9501860d-3ab4-41cc-acfb-87dff6235abc.png"
+    },
+    {
+        "id": 156,
+        "title": "Вершки 10%",
+        "basePrice": 32.40,
+        "description": "Вершки для кави та десертів 10%, 200 мл.",
+        "rating": 4.4,
+        "volume": "200 мл",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/904277ba-8ec4-4cef-9a42-69f8360660ee.png"
+    },
+    {
+        "id": 157,
+        "title": "Сир Брі",
+        "basePrice": 135.00,
+        "description": "Сир Брі м'який французький, 200 г.",
+        "rating": 4.7,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/1541ffe9-f938-482c-b54b-20174c3e3600.jpg"
+    },
+    {
+        "id": 158,
+        "title": "Булочки для бургерів",
+        "basePrice": 45.80,
+        "description": "Булочки для бургерів з кунжутом, 4 шт.",
+        "rating": 4.3,
+        "weight": "320 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/dc0da846-91b9-46f0-b83d-3ab11c8da30c.png"
+    },
+    {
+        "id": 159,
+        "title": "Пончики з повидлом",
+        "basePrice": 38.99,
+        "description": "Пончики глазуровані з вишневим повидлом, 4 шт.",
+        "rating": 4.1,
+        "weight": "280 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery",
+            "desserts",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/b36b05aa-4097-4ee2-b6c1-6ff8cbb29159.jpg"
+    },
+    {
+        "id": 160,
+        "title": "Лаваш вірменський",
+        "basePrice": 22.50,
+        "description": "Лаваш тонкий вірменський, 3 шт.",
+        "rating": 4.6,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/43aacd8d-1128-451c-90b1-eed93c7b1e46.png"
+    },
+    {
+        "id": 161,
+        "title": "Напій Fanta апельсинова",
+        "basePrice": 46.99,
+        "description": "Напій Fanta апельсинова, 1 л.",
+        "rating": 3.9,
+        "volume": "1 л",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/950d17ae-0d5a-4d98-93e8-69329ddf2a8e.png"
+    },
+    {
+        "id": 162,
+        "title": "Чай фруктовий Gurieli",
+        "basePrice": 55.90,
+        "description": "Чай фруктовий Gurieli «Фрукти лісів Грузії», 20 шт.",
+        "rating": 4.2,
+        "weight": "40 г",
+        "discountPercentage": 20,
+        "categories": [
+            "actions",
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/5bbbc604-3231-4c7f-a72b-0ffdcc387dde.png"
+    },
+    {
+        "id": 163,
+        "title": "Гомілка куряча",
+        "basePrice": 98.50,
+        "description": "Гомілка куряча охолоджена, 1 кг.",
+        "rating": 4.0,
+        "weight": "1 кг",
+        "discountPercentage": 35,
+        "categories": [
+            "actions",
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/77197493-59ec-445c-aea5-69b9114472f9.png"
+    },
+    {
+        "id": 164,
+        "title": "Телятина вирізка",
+        "basePrice": 245.00,
+        "description": "Вирізка теляча охолоджена преміум якості, 400 г.",
+        "rating": 4.8,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/21103d24-efd5-4bdc-9062-cf2cf45972e2.png"
+    },
+    {
+        "id": 165,
+        "title": "Хек свіжоморожений",
+        "basePrice": 115.80,
+        "description": "Філе хека свіжоморожене, 800 г.",
+        "rating": 4.1,
+        "weight": "800 г",
+        "discountPercentage": 0,
+        "categories": [
+            "fish"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/b31667c1-5d86-43c5-a349-363c63a29136.png"
+    },
+    {
+        "id": 166,
+        "title": "Пшоно",
+        "basePrice": 29.99,
+        "description": "Крупа пшоно шліфоване, 800 г.",
+        "rating": 4.4,
+        "weight": "800 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e14c077a-8142-414d-b15f-a41c1cc55704.png"
+    },
+    {
+        "id": 167,
+        "title": "Нут",
+        "basePrice": 68.40,
+        "description": "Нут сухий, 500 г.",
+        "rating": 4.5,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/520da48b-c9ad-465a-81f9-a2de3a9191be.png"
+    },
+    {
+        "id": 168,
+        "title": "Фузіллі",
+        "basePrice": 36.80,
+        "description": "Макарони фузіллі з твердих сортів пшениці, 500 г.",
+        "rating": 4.6,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/69496031-913a-41eb-b1a8-3ea66203e323.png"
+    },
+    {
+        "id": 169,
+        "title": "Шоколад Ritter Sport молочний",
+        "basePrice": 62.99,
+        "description": "Шоколад Ritter Sport молочний з цілим мигдалем, 100 г.",
+        "rating": 4.7,
+        "weight": "100 г",
+        "discountPercentage": 0,
+        "categories": [
+            "sweets"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/5087dcf6-be14-4b02-a3c5-f18fd63f24a4.png"
+    },
+    {
+        "id": 170,
+        "title": "Зефір ванільний",
+        "basePrice": 78.50,
+        "description": "Зефір ванільний класичний, 250 г.",
+        "rating": 4.3,
+        "weight": "250 г",
+        "discountPercentage": 0,
+        "categories": [
+            "sweets",
+            "desserts"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/aa1b39bc-98c3-4dbc-8efa-1d55c711219d.png"
+    },
+    {
+        "id": 171,
+        "title": "Яйця С1 (10 шт)",
+        "basePrice": 39.80,
+        "description": "Яйця курячі категорія С1, 10 шт.",
+        "rating": 4.4,
+        "weight": "10 шт",
+        "discountPercentage": 0,
+        "categories": [
+            "eggs"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/5458bf94-55f4-476b-9e17-ce6b39bf8585.png"
+    },
+    {
+        "id": 172,
+        "title": "Сир «Столичний»",
+        "basePrice": 105.00,
+        "description": "Сир твердий Столичний 50%, 300 г.",
+        "rating": 4.5,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/8b461507-354c-4edf-9b07-af0eddbe7152.png"
+    },
+    {
+        "id": 173,
+        "title": "Мандарини Марокко",
+        "basePrice": 65.90,
+        "description": "Мандарини Марокко солодкі, 1 кг.",
+        "rating": 4.6,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "fruits"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/699183d9-cbb8-4ba9-a073-6b85307c80a5.png"
+    },
+    {
+        "id": 174,
+        "title": "Персики",
+        "basePrice": 92.80,
+        "description": "Персики стиглі, соковиті, 1 кг.",
+        "rating": 4.2,
+        "weight": "1 кг",
+        "discountPercentage": 0,
+        "categories": [
+            "fruits"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/bc5e7ca7-e10e-4b5d-8f46-280e5f6a005a.png"
+    },
+    {
+        "id": 175,
+        "title": "Полуниця заморожена",
+        "basePrice": 115.00,
+        "description": "Полуниця заморожена, 400 г.",
+        "rating": 4.3,
+        "weight": "400 г",
+        "discountPercentage": 25,
+        "categories": [
+            "actions",
+            "fruits"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/b67c121c-5bdc-47cb-a62d-275228e10e6c.png"
+    },
+    {
+        "id": 176,
+        "title": "Креветки очищені",
+        "basePrice": 189.99,
+        "description": "Креветки королівські очищені заморожені, 300 г.",
+        "rating": 4.4,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "fish",
+            "seafood"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/1ea18ffd-1980-4263-9be2-86c735e959aa.png"
+    },
+    {
+        "id": 177,
+        "title": "Сало українське",
+        "basePrice": 145.50,
+        "description": "Сало солоне з перцем, 300 г.",
+        "rating": 4.1,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/6b66ec96-a1b1-4269-967b-a3e116019c20.png"
+    },
+    {
+        "id": 178,
+        "title": "Сосиски для грилю",
+        "basePrice": 128.00,
+        "description": "Сосиски для грилю з сиром, 400 г.",
+        "rating": 3.8,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/52475282-21f6-41d2-b68c-d950b4b4fbfd.png"
+    },
+    {
+        "id": 179,
+        "title": "Хінкалі з м'ясом",
+        "basePrice": 98.90,
+        "description": "Хінкалі заморожені з яловичиною та свининою, 600 г.",
+        "rating": 4.0,
+        "weight": "600 г",
+        "discountPercentage": 0,
+        "categories": [
+            "frozen"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/2b9d7f64-9389-47c1-9452-3d0ea82a2aa9.png"
+    },
+    {
+        "id": 180,
+        "title": "Млинці з сиром",
+        "basePrice": 85.50,
+        "description": "Млинці заморожені з творогом, 400 г.",
+        "rating": 4.2,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "frozen"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/7717f960-52ec-4de0-807c-2d9586599f5e.png"
+    },
+    {
+        "id": 181,
+        "title": "Сіль морська",
+        "basePrice": 19.99,
+        "description": "Сіль морська йодована, 90 г.",
+        "rating": 4.8,
+        "weight": "90 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/61421c60-7a9d-4468-b365-c8d939f6f27d.png"
+    },
+    {
+        "id": 182,
+        "title": "Олія оливкова",
+        "basePrice": 135.00,
+        "description": "Олія оливкова Extra Virgin, 500 мл.",
+        "rating": 4.7,
+        "volume": "500 мл",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/4498b275-eaa0-4629-9c2e-05d9e4714edf.png"
+    },
+    {
+        "id": 183,
+        "title": "Гірчиця діжонська",
+        "basePrice": 58.40,
+        "description": "Гірчиця діжонська зерниста, 200 г.",
+        "rating": 4.3,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/fc1efe95-e351-4ebf-83f7-4e218357f756.png"
+    },
+    {
+        "id": 184,
+        "title": "Чіпси зі смаком сиру",
+        "basePrice": 54.99,
+        "description": "Чіпси картопляні зі смаком сиру, 150 г.",
+        "rating": 3.9,
+        "weight": "150 г",
+        "discountPercentage": 0,
+        "categories": [
+            "snacks"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/9bb65d0f-b25e-4313-95c9-31f38d5f6c19.png"
+    },
+    {
+        "id": 185,
+        "title": "Мигдаль смажений",
+        "basePrice": 165.80,
+        "description": "Мигдаль смажений солоний, 200 г.",
+        "rating": 4.5,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "snacks"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/0f4525f5-5e09-465b-9d03-07d249fe9a99.png"
+    },
+    {
+        "id": 186,
+        "title": "Чорнослив",
+        "basePrice": 98.50,
+        "description": "Чорнослив без кісточки, 200 г.",
+        "rating": 4.4,
+        "weight": "200 г",
+        "discountPercentage": 0,
+        "categories": [
+            "sweets"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/624e938e-5350-4395-b70c-ec87dc8856c4.png"
+    },
+    {
+        "id": 187,
+        "title": "Кисіль вишневий",
+        "basePrice": 22.90,
+        "description": "Кисіль вишневий швидкого приготування, 90 г.",
+        "rating": 3.8,
+        "weight": "90 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/48cf5120-772c-4d14-bfad-74345ec3b7d1.png"
+    },
+    {
+        "id": 188,
+        "title": "Сир сулугуні",
+        "basePrice": 112.00,
+        "description": "Сир сулугуні копчений, 300 г.",
+        "rating": 4.6,
+        "weight": "300 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/2fc40240-1bba-40cd-a059-7a2e5bd2128a.png"
+    },
+    {
+        "id": 189,
+        "title": "Пиріг з вишнею",
+        "basePrice": 75.99,
+        "description": "Пиріг пісочний з вишнею, 500 г.",
+        "rating": 4.5,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery",
+            "desserts"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/75278ddb-8f07-45ad-b9bc-c8588076b031.png"
+    },
+    {
+        "id": 190,
+        "title": "Кава розчинна Nescafe Gold",
+        "basePrice": 179.00,
+        "description": "Кава розчинна Nescafe Gold, 310 г.",
+        "rating": 4.7,
+        "weight": "310 г",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/1e0064cc-bb02-4826-a3d2-6f1005fb0913.png"
+    },
+    {
+        "id": 191,
+        "title": "Сік томатний",
+        "basePrice": 39.80,
+        "description": "Сік томатний з м’якоттю, 1 л.",
+        "rating": 4.0,
+        "volume": "1 л",
+        "discountPercentage": 15,
+        "categories": [
+            "actions",
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/96bdc9f2-7572-4a5b-882f-4d83e156d483.png"
+    },
+    {
+        "id": 192,
+        "title": "Куряче філе",
+        "basePrice": 289.50,
+        "description": "Куряче філе зі стегна домашнє охолоджене, 500 г.",
+        "rating": 4.2,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "meat"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/cdb4a991-0dce-4f84-980f-efafbf40a179.jpg"
+    },
+    {
+        "id": 193,
+        "title": "Кальмари кільця",
+        "basePrice": 165.00,
+        "description": "Кальмари кільця заморожені, 400 г.",
+        "rating": 4.1,
+        "weight": "400 г",
+        "discountPercentage": 0,
+        "categories": [
+            "fish",
+            "seafood"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/bc1714cc-3c42-47e0-85e8-a05605d2ae91.png"
+    },
+    {
+        "id": 194,
+        "title": "Вівсяні пластівці",
+        "basePrice": 38.90,
+        "description": "Вівсяні пластівці екстра, 500 г.",
+        "rating": 4.6,
+        "weight": "500 г",
+        "discountPercentage": 0,
+        "categories": [
+            "groceries"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/9285c06a-ef51-4d46-9086-5496d8dbec27.png"
+    },
+    {
+        "id": 195,
+        "title": "Кінза свіжа",
+        "basePrice": 21.50,
+        "description": "Кінза свіжа, 100 г.",
+        "rating": 4.3,
+        "weight": "100 г",
+        "discountPercentage": 0,
+        "categories": [
+            "vegetables"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/3e190eee-6acd-4ef7-a4c9-56e0eaf06001.jpg"
+    },
+    {
+        "id": 196,
+        "title": "Сир камамбер",
+        "basePrice": 128.99,
+        "description": "Сир камамбер м'який, 150 г.",
+        "rating": 4.8,
+        "weight": "150 г",
+        "discountPercentage": 0,
+        "categories": [
+            "dairy"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/4cc3bf91-ea36-40f4-a102-fc30387a5e21.png"
+    },
+    {
+        "id": 197,
+        "title": "Круасани міні асорті",
+        "basePrice": 55.80,
+        "description": "Круасани міні з різними начинками, 6 шт.",
+        "rating": 4.4,
+        "weight": "240 г",
+        "discountPercentage": 0,
+        "categories": [
+            "bakery",
+            "desserts"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/f9e41604-66fd-406d-85c3-c958b9bea791.png"
+    },
+    {
+        "id": 198,
+        "title": "Напій Sprite",
+        "basePrice": 47.50,
+        "description": "Напій Sprite сильногазований, 0,75 л.",
+        "rating": 4.0,
+        "volume": "0.75 л",
+        "discountPercentage": 0,
+        "categories": [
+            "beverages"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/3a8215c6-9f9d-46ab-b3a9-db57c39ea21e.png"
+    },
+    {
+        "id": 199,
+        "title": "Піца чотири сири заморожена",
+        "basePrice": 99.90,
+        "description": "Піца Чотири сири заморожена, 400 г.",
+        "rating": 4.1,
+        "weight": "400 г",
+        "discountPercentage": 18,
+        "categories": [
+            "actions",
+            "frozen"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/e73c499e-d192-41c3-87ee-ab2fab0614fd.png"
+    },
+    {
+        "id": 200,
+        "title": "Морозиво «Корівка»",
+        "basePrice": 42.80,
+        "description": "Морозиво вершкове «Корівка» в шоколадній глазурі, 70 г.",
+        "rating": 4.3,
+        "weight": "70 г",
+        "discountPercentage": 0,
+        "categories": [
+            "desserts",
+            "frozen",
+            "new"
+        ],
+        "imageUrl": "https://images.silpo.ua/v2/products/1200x1200/webp/3100af20-4f3d-47fe-b72d-aca6edb8d31c.png"
     }
 ]

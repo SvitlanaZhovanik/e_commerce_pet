@@ -22,7 +22,9 @@ const Footer = () => {
           </nav>
         </div>
         <p className='border-t-light flex-1 border-t-2 pt-4 text-center md:pt-8 xl:pt-10'>
-          &copy; {new Date().getFullYear()} Happy Face. All rights reserved.
+          &copy; {new Date().getFullYear()} Happy Face. *Зображення та опис товарів було взято з сайту
+          https://silpo.ua/. Проєкт особистий для демонстрації можливостей розробки і не носить рекламного чи
+          комерційного характеру.
         </p>
       </div>
     </footer>
