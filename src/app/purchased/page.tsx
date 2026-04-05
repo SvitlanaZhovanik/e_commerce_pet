@@ -1,9 +1,9 @@
 import { getUserPurchases } from '@/utils/purchasesApi';
-import ProductCard from './ProductCard';
-import ViewAllLink from './ViewAllLink';
+import ProductCard from '@/components/mainPage/ProductCard';
+import ViewAllLink from '@/components/mainPage/ViewAllLink';
 import { ProductCardProps } from '@/types/products';
 
-const OrderedBeforeSection = async () => {
+export default async function OrderedBefore() {
   let purchasedProducts: ProductCardProps[] = [];
   let error = null;
   try {
@@ -21,19 +21,16 @@ const OrderedBeforeSection = async () => {
     return <div className='p-8 text-center'>У вас ще немає покупок</div>;
   }
   return (
-    <section className='mb-20 md:mb-25 xl:mb-30'>
+    <section className='my-20 md:my-25 xl:my-30'>
       <div className='container'>
         <div className='mb-5 flex flex-row items-center justify-between md:mb-8 xl:mb-10'>
           <h2 className='text-surfaceTxt text-2xl font-bold xl:text-4xl'>Замовляли раніше</h2>
-          <ViewAllLink href='/purchased' name='Всі замовлення' />
+          <ViewAllLink href='/' name='На головну' />
         </div>
         <ul className='mt-4 grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-4 xl:gap-10'>
-          {purchasedProducts.slice(0, 4).map((product: ProductCardProps, index: number) => {
+          {purchasedProducts.slice(0, 4).map((product: ProductCardProps) => {
             return (
-              <li
-                key={product.id}
-                className={`${index >= 4 ? 'hidden' : ''} ${index >= 3 ? 'md:hidden lg:block' : ''} ${index >= 4 ? 'lg:hidden' : ''} `}
-              >
+              <li key={product.id}>
                 <ProductCard {...product} />
               </li>
             );
@@ -42,6 +39,4 @@ const OrderedBeforeSection = async () => {
       </div>
     </section>
   );
-};
-
-export default OrderedBeforeSection;
+}
