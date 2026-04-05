@@ -65,3 +65,17 @@
 @utility container {
   @apply mx-auto px-4 xl:max-w-7xl xl:p-0;
 }
+
+.leaflet-container {
+  z-index: 0 !important;
+}
+
+.leaflet-pane {
+  z-index: 1 !important;
+}
+
+.leaflet-top,
+.leaflet-bottom,
+.leaflet-control {
+  z-index: 5 !important;
+}
