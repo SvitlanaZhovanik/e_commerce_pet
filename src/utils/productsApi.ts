@@ -24,5 +24,4 @@ export const getProductsByCategory = unstable_cache(
     return shuffleProducts;
   },
   ['products-by-category'],
-  { revalidate: 3600 },
 );
