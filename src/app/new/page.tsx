@@ -1,4 +1,4 @@
-import ProductPageComponent from '@/components/ProductPageComponent';
+import ProductsSection from '@/components/ProductsSection';
 import { ProductCardProps } from '@/types/products';
 import { getProductsByCategory } from '@/utils/productsApi';
 
@@ -12,7 +12,5 @@ export default async function NewItems() {
       <div className='text-error container p-4 text-4xl md:p-8 xl:p-10'>{'Помилка при отриманні нових продуктів'}</div>
     );
   }
-  return (
-    <ProductPageComponent title='Новинки' viewAllLink={{ name: 'На головну', href: '/' }} products={newProducts} />
-  );
+  return <ProductsSection title='Новинки' viewAllLink={{ name: 'На головну', href: '/' }} products={newProducts} />;
 }

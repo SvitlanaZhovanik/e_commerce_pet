@@ -1,6 +1,6 @@
 import { getUserPurchases } from '@/utils/purchasesApi';
 import { ProductCardProps } from '@/types/products';
-import ProductsSection from './ProductsSection';
+import ProductsSection from '../ProductsSection';
 
 const OrderedBeforeSection = async () => {
   let purchasedProducts: ProductCardProps[] = [];
@@ -19,6 +19,7 @@ const OrderedBeforeSection = async () => {
       title='Замовляли раніше'
       viewAllLink={{ name: 'Всі замовлення', href: '/purchased' }}
       products={purchasedProducts}
+      short
     />
   );
 };

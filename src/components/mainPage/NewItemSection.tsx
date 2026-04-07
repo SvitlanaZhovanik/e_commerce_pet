@@ -1,6 +1,6 @@
 import { ProductCardProps } from '@/types/products';
 import { getProductsByCategory } from '@/utils/productsApi';
-import ProductsSection from './ProductsSection';
+import ProductsSection from '../ProductsSection';
 
 const NewItemSection = async () => {
   let newProducts: ProductCardProps[] = [];
@@ -13,6 +13,8 @@ const NewItemSection = async () => {
     );
   }
 
-  return <ProductsSection title='Акції' viewAllLink={{ name: 'Всі новинки', href: '/new' }} products={newProducts} />;
+  return (
+    <ProductsSection title='Новинки' viewAllLink={{ name: 'Всі новинки', href: '/new' }} products={newProducts} short />
+  );
 };
 export default NewItemSection;

@@ -1,6 +1,6 @@
 import { getUserPurchases } from '@/utils/purchasesApi';
 import { ProductCardProps } from '@/types/products';
-import ProductPageComponent from '@/components/ProductPageComponent';
+import ProductsSection from '@/components/ProductsSection';
 
 export default async function OrderedBefore() {
   let purchasedProducts: ProductCardProps[] = [];
@@ -20,7 +20,7 @@ export default async function OrderedBefore() {
     return <div className='p-8 text-center'>У вас ще немає покупок</div>;
   }
   return (
-    <ProductPageComponent
+    <ProductsSection
       title='Замовляли раніше'
       viewAllLink={{ name: 'На головну', href: '/' }}
       products={purchasedProducts}

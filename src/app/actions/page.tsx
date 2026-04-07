@@ -1,4 +1,4 @@
-import ProductPageComponent from '@/components/ProductPageComponent';
+import ProductsSection from '@/components/ProductsSection';
 import { ProductCardProps } from '@/types/products';
 import { getProductsByCategory } from '@/utils/productsApi';
 
@@ -16,7 +16,5 @@ export default async function AllActionSection() {
     );
   }
 
-  return (
-    <ProductPageComponent title='Акції' viewAllLink={{ name: 'На головну', href: '/' }} products={actionsProducts} />
-  );
+  return <ProductsSection title='Акції' viewAllLink={{ name: 'На головну', href: '/' }} products={actionsProducts} />;
 }
