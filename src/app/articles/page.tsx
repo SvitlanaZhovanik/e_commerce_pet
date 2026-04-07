@@ -5,16 +5,13 @@ import { getArticles } from '@/utils/articlesApi';
 
 export default async function Articles() {
   let articles: ArticleProps[] = [];
-  let error = null;
   try {
     articles = await getArticles();
   } catch (err) {
-    error = 'Помилка при отриманні всіх новин';
     console.error('Помилка на сторінці Новин', err);
+    return <div className='text-error container p-4 text-4xl md:p-8 xl:p-10'>{'Помилка при отриманні всіх новин'}</div>;
   }
-  if (error) {
-    return <div className='text-error container p-4 text-4xl md:p-8 xl:p-10'>{error}</div>;
-  }
+
   return (
     <section className='my-20 md:my-25 xl:my-30'>
       <div className='container'>
