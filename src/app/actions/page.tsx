@@ -1,20 +1,20 @@
-import ProductsSection from '@/components/ProductsSection';
-import { ProductCardProps } from '@/types/products';
+import GenericProductListPage from '@/components/GenericProductListPage';
 import { getProductsByCategory } from '@/utils/productsApi';
 
-export default async function AllActionSection() {
-  let actionsProducts: ProductCardProps[];
-
-  try {
-    actionsProducts = await getProductsByCategory('actions');
-  } catch (err) {
-    console.error('Помилка при отриманні акційних товарів:', err);
-    return (
-      <div className='text-error container p-4 text-4xl md:p-8 xl:p-10'>
-        {'Не вдалося завантажити акційні товари. Спробуйте пізніше.'}
-      </div>
-    );
-  }
-
-  return <ProductsSection title='Акції' viewAllLink={{ name: 'На головну', href: '/' }} products={actionsProducts} />;
+export default async function AllAction({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string; itemsPerPage?: string }>;
+}) {
+  return (
+    <GenericProductListPage
+      searchParams={searchParams}
+      props={{
+        fetchData: () => getProductsByCategory('actions'),
+        pageTitle: 'Акції',
+        basePath: '/actions',
+        errorMessage: 'Йой, щось пішло не так, спробуй пізніше',
+      }}
+    />
+  );
 }

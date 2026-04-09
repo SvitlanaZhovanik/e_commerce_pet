@@ -20,8 +20,8 @@ export const getProductsByCategory = unstable_cache(
         }) as ProductCardProps,
     );
 
-    const shuffleProducts = shuffleArray(serializedProducts);
-    return shuffleProducts;
+    return serializedProducts;
   },
   ['products-by-category'],
+  { revalidate: 3600 },
 );

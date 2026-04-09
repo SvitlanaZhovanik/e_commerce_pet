@@ -1,11 +1,13 @@
 import { ProductCardProps } from '@/types/products';
 import { getProductsByCategory } from '@/utils/productsApi';
 import ProductsSection from '../ProductsSection';
+import { shuffleArray } from '@/utils/shuffleArray';
 
 const ActionSection = async () => {
   let actionsProducts: ProductCardProps[] = [];
   try {
     actionsProducts = await getProductsByCategory('actions');
+    actionsProducts = shuffleArray(actionsProducts);
   } catch (err) {
     console.error('Помилка при отриманні акцій:', err);
     return (
