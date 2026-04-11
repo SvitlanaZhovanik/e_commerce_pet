@@ -1,4 +1,4 @@
-import GenericProductListPage from '@/components/GenericProductListPage';
+import GenericProductsListPage from '@/components/GenericProductsListPage';
 import { getProductsByCategory } from '@/utils/productsApi';
 
 export default async function AllAction({
@@ -7,7 +7,7 @@ export default async function AllAction({
   searchParams: Promise<{ page?: string; itemsPerPage?: string }>;
 }) {
   return (
-    <GenericProductListPage
+    <GenericProductsListPage
       searchParams={searchParams}
       props={{
         fetchData: () => getProductsByCategory('actions'),
