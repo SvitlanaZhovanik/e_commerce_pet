@@ -17,7 +17,7 @@ const Pagination = ({ totalItems, currentPage, basePath, itemsPerPage, searchQue
   return (
     <div className='text-surfaceTxt mt-8 mb-10 flex justify-center gap-4'>
       <Link
-        className={currentPage === 1 ? 'text-error cursor-not-allowed' : ''}
+        className={currentPage === 1 ? 'text-error cursor-not-allowed' : 'text-surfaceTxt cursor-pointer'}
         href={createPageUrl(currentPage - 1)}
         onClick={e => {
           if (currentPage === 1) e.preventDefault();
@@ -26,7 +26,7 @@ const Pagination = ({ totalItems, currentPage, basePath, itemsPerPage, searchQue
         Назад
       </Link>
       <Link
-        className={currentPage === totalPage ? 'text-error cursor-not-allowed' : ''}
+        className={currentPage === totalPage ? 'text-error cursor-not-allowed' : 'text-surfaceTxt cursor-pointer'}
         href={createPageUrl(currentPage + 1)}
         onClick={e => {
           if (currentPage === totalPage) e.preventDefault();
