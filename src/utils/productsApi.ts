@@ -1,5 +1,4 @@
 import { getDB } from '@/utils/api-routes';
-import { shuffleArray } from '@/utils/shuffleArray';
 import { unstable_cache } from 'next/cache';
 import { ProductCardProps } from '@/types/products';
 
