@@ -2,11 +2,24 @@ import ViewAllLink from '@/components/mainPage/ViewAllLink';
 import Article from '@/components/mainPage/Article';
 import { ArticleProps } from '@/types/articles';
 import { getArticles } from '@/utils/articlesApi';
+import PaginationWrapper from '@/components/PaginationWrapper';
 
-export default async function Articles() {
+export default async function Articles({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string; itemsPerPage?: string }>;
+}) {
   let articles: ArticleProps[] = [];
+  let paginatedArticles = [];
+  const params = await searchParams;
+  const page = params?.page;
+  const itemsPerPage = params?.itemsPerPage || 8;
+  const currentPage = Number(page) || 1;
+  const perPage = Number(itemsPerPage);
+  const startIdx = (currentPage - 1) * perPage;
   try {
     articles = await getArticles();
+    paginatedArticles = articles.slice(startIdx, startIdx + perPage);
   } catch (err) {
     console.error('Помилка на сторінці Новин', err);
     return <div className='text-error container p-4 text-4xl md:p-8 xl:p-10'>{'Помилка при отриманні всіх новин'}</div>;
@@ -20,7 +33,7 @@ export default async function Articles() {
           <ViewAllLink href='/' name='На головну' />
         </div>
         <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-          {articles.map(article => {
+          {paginatedArticles.map(article => {
             return (
               <li key={article._id} className='h-75 md:h-105'>
                 <Article {...article} />
@@ -28,6 +41,9 @@ export default async function Articles() {
             );
           })}
         </ul>
+        {articles.length > perPage && (
+          <PaginationWrapper totalItems={articles.length} currentPage={currentPage} basePath={'/articles'} />
+        )}
       </div>
     </section>
   );
