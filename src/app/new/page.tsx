@@ -1,16 +1,20 @@
-import ProductsSection from '@/components/ProductsSection';
-import { ProductCardProps } from '@/types/products';
+import GenericProductsListPage from '@/components/GenericProductsListPage';
 import { getProductsByCategory } from '@/utils/productsApi';
 
-export default async function NewItems() {
-  let newProducts: ProductCardProps[] = [];
-  try {
-    newProducts = (await getProductsByCategory('new')) as ProductCardProps[];
-  } catch (err) {
-    console.error('Помилка на сторінці нові продукти', err);
-    return (
-      <div className='text-error container p-4 text-4xl md:p-8 xl:p-10'>{'Помилка при отриманні нових продуктів'}</div>
-    );
-  }
-  return <ProductsSection title='Новинки' viewAllLink={{ name: 'На головну', href: '/' }} products={newProducts} />;
+export default async function NewItems({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string; itemsPerPage?: string }>;
+}) {
+  return (
+    <GenericProductsListPage
+      searchParams={searchParams}
+      props={{
+        fetchData: () => getProductsByCategory('new'),
+        pageTitle: 'Новинки',
+        basePath: '/new',
+        errorMessage: 'Йой, щось пішло не так, спробуй пізніше',
+      }}
+    />
+  );
 }

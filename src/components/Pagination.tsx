@@ -17,6 +17,10 @@ const Pagination = ({ totalItems, currentPage, basePath, itemsPerPage, searchQue
               ? 'text-darkest bg-light cursor-not-allowed rounded px-4 py-2'
               : 'text-surfaceTxt bg-secondary hover:bg-primary hover:text-surface focus:text-surface focus:bg-primary cursor-pointer rounded px-4 py-2 delay-300'
           }
+          onClick={e => {
+            if (currentPage === 1) e.preventDefault();
+          }}
+          aria-disabled={currentPage === 1}
           href={createPageUrl(currentPage - 1, basePath, params)}
         >
           &lsaquo;
@@ -45,6 +49,10 @@ const Pagination = ({ totalItems, currentPage, basePath, itemsPerPage, searchQue
               ? 'text-darkest bg-light cursor-not-allowed rounded px-4 py-2'
               : 'text-surfaceTxt bg-secondary hover:bg-primary hover:text-surface focus:text-surface focus:bg-primary cursor-pointer rounded px-4 py-2 delay-300'
           }
+          aria-disabled={currentPage === totalPages}
+          onClick={e => {
+            if (currentPage === totalPages) e.preventDefault();
+          }}
           href={createPageUrl(currentPage + 1, basePath, params)}
         >
           &rsaquo;
