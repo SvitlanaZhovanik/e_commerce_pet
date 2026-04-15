@@ -25,7 +25,7 @@ const ProductsSection = async ({
           ) : (
             <h1 className='text-surfaceTxt text-2xl font-bold xl:text-4xl'>{title}</h1>
           )}
-          <ViewAllLink href={viewAllLink.href} name={viewAllLink.name} />
+          {short && <ViewAllLink href={viewAllLink.href} name={viewAllLink.name} />}
         </div>
         <ul className='mt-4 grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-4 xl:gap-10'>
           {short

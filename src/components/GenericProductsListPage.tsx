@@ -1,4 +1,4 @@
-import { GenericProductsListPageProps } from '@/types/genericProductsListPageProps';
+import { GenericProductsListPageProps } from '@/types/genericProductsListPage';
 import ProductsSection from './ProductsSection';
 import PaginationWrapper from './PaginationWrapper';
 

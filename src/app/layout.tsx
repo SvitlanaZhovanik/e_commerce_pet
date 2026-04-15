@@ -3,6 +3,7 @@ import { Rubik } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/header/Header';
 import Footer from '@/components/Footer';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 const rubik = Rubik({
   variable: '--font-rubik',
@@ -23,7 +24,10 @@ export default function RootLayout({
     <html lang='uk' className={`${rubik.variable}`}>
       <body className='flex flex-col font-sans antialiased md:min-h-dvh'>
         <Header />
-        <main className='md:mt-19 md:flex-1'>{children}</main>
+        <main className='md:mt-19 md:flex-1'>
+          <Breadcrumbs />
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
