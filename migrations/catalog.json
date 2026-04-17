@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "order": 1,
+        "title": "Молочні вироби, яйця, сири",
+        "img": "https://cdn.pixabay.com/photo/2016/05/11/11/20/milk-1385548_1280.jpg",
+        "colSpan": "col-span-2",
+        "tabletColSpan": "md:col-span-2",
+        "mobileColSpan": "col-span-2"
+    },
+    {
+        "id": 2,
+        "order": 2,
+        "title": "Хлібні вироби",
+        "img": "https://cdn.pixabay.com/photo/2024/01/27/10/24/bread-8535650_1280.jpg",
+        "colSpan": "",
+        "tabletColSpan": "md:col-span-1",
+        "mobileColSpan": ""
+    },
+    {
+        "id": 3,
+        "order": 3,
+        "title": "Фрукти",
+        "img": "https://cdn.pixabay.com/photo/2016/07/27/20/03/berries-1546125_1280.jpg",
+        "colSpan": "",
+        "tabletColSpan": "md:col-span-1",
+        "mobileColSpan": ""
+    },
+    {
+        "id": 4,
+        "order": 4,
+        "title": "Солодощі",
+        "img": "https://cdn.pixabay.com/photo/2016/03/27/22/08/colorful-1284475_1280.jpg",
+        "colSpan": "",
+        "tabletColSpan": "md:col-span-1",
+        "mobileColSpan": ""
+    },
+    {
+        "id": 5,
+        "order": 5,
+        "title": "Напої",
+        "img": "https://cdn.pixabay.com/photo/2020/04/04/15/14/tin-5002709_1280.jpg",
+        "colSpan": "",
+        "tabletColSpan": "md:col-span-1",
+        "mobileColSpan": ""
+    },
+    {
+        "id": 6,
+        "order": 6,
+        "title": "Печиво",
+        "img": "https://cdn.pixabay.com/photo/2023/01/13/17/30/macarons-7716584_1280.jpg",
+        "colSpan": "",
+        "tabletColSpan": "md:col-span-1",
+        "mobileColSpan": ""
+    },
+    {
+        "id": 7,
+        "order": 7,
+        "title": "М'ясо та м'ясні вироби",
+        "img": "https://cdn.pixabay.com/photo/2017/06/05/17/27/meat-2374652_1280.jpg",
+        "colSpan": "",
+        "tabletColSpan": "md:col-span-1",
+        "mobileColSpan": ""
+    },
+    {
+        "id": 8,
+        "order": 8,
+        "title": "Бакалія",
+        "img": "https://cdn.pixabay.com/photo/2017/02/12/17/17/music-2060616_1280.jpg",
+        "colSpan": "",
+        "tabletColSpan": "md:col-span-1",
+        "mobileColSpan": ""
+    },
+    {
+        "id": 9,
+        "order": 9,
+        "title": "Риба та морепродукти",
+        "img": "https://cdn.pixabay.com/photo/2018/02/23/13/28/eat-3175540_1280.jpg",
+        "colSpan": "",
+        "tabletColSpan": "md:col-span-1",
+        "mobileColSpan": ""
+    },
+    {
+        "id": 10,
+        "order": 10,
+        "title": "Замороженні продукти",
+        "img": "https://cdn.pixabay.com/photo/2020/01/27/14/00/vegetables-4797297_1280.jpg",
+        "colSpan": "col-span-2",
+        "tabletColSpan": "md:col-span-2",
+        "mobileColSpan": "col-span-2"
+    },
+    {
+        "id": 11,
+        "order": 11,
+        "title": "Смаколики",
+        "img": "https://cdn.pixabay.com/photo/2017/10/17/15/15/knabberzeug-2860948_1280.jpg",
+        "colSpan": "",
+        "tabletColSpan": "md:col-span-1",
+        "mobileColSpan": ""
+    },
+    {
+        "id": 12,
+        "order": 12,
+        "title": "Овочі",
+        "img": "https://cdn.pixabay.com/photo/2022/01/18/16/30/vegetables-6947442_1280.jpg",
+        "colSpan": "",
+        "tabletColSpan": "md:col-span-1",
+        "mobileColSpan": ""
+    }
+]
