@@ -1,7 +1,5 @@
-import { ObjectId } from 'mongoose';
-
 export interface CatalogProps {
-  _id: ObjectId;
+  _id: string;
   id: number;
   order: number;
   title: string;
@@ -9,4 +7,5 @@ export interface CatalogProps {
   colSpan: string;
   tabletColSpan: string;
   mobileColSpan: string;
+  slug: string;
 }
