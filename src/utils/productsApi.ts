@@ -1,26 +1,34 @@
 import { getDB } from '@/utils/api-routes';
-import { unstable_cache } from 'next/cache';
+import { GetProductsOptions } from '@/types/productsApi';
 import { ProductCardProps } from '@/types/products';
 
-export const getProductsByCategory = unstable_cache(
-  async (category: string) => {
-    if (!category) {
-      throw new Error('Категорія є обовʼязковою');
-    }
+export const getProductsByCategory = async (category: string, options: GetProductsOptions = {}) => {
+  const db = await getDB();
+  const { limit, random } = options;
 
-    const db = await getDB();
-
-    const products = await db.collection('products').find({ categories: category }).toArray();
-    const serializedProducts = products.map(
+  if (random && limit) {
+    const products = await db
+      .collection('products')
+      .aggregate([{ $match: { categories: category } }, { $sample: { size: limit } }])
+      .toArray();
+    return products.map(
       (product): ProductCardProps =>
         ({
           ...product,
           _id: product._id.toString(),
         }) as ProductCardProps,
     );
+  }
 
-    return serializedProducts;
-  },
-  ['products-by-category'],
-  { revalidate: 3600 },
-);
+  let query = db.collection('products').find({ categories: category });
+
+  if (limit) query = query.limit(limit);
+  const products = await query.toArray();
+  return products.map(
+    (product): ProductCardProps =>
+      ({
+        ...product,
+        _id: product._id.toString(),
+      }) as ProductCardProps,
+  );
+};

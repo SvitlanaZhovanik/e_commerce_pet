@@ -7,7 +7,7 @@ const ArticlesSection = async () => {
   let articles: ArticleProps[] = [];
   let error = null;
   try {
-    articles = await getArticles();
+    articles = await getArticles(3);
   } catch (err) {
     error = 'Помилка при отриманні новин';
     console.error('Помилка в секції Новин', err);

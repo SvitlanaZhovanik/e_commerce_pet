@@ -15,7 +15,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   rating,
 }: ProductCardProps) => {
   return (
-    <div className='bg-surface flex h-full min-h-85.75 flex-col justify-between overflow-hidden rounded p-0 align-top shadow-(--shadow-card) duration-300 hover:shadow-(--hover-shadow-card) md:h-[349px] xl:w-[272px]'>
+    <div className='bg-surface flex h-full min-h-85.75 flex-col justify-between overflow-hidden rounded p-0 align-top shadow-(--shadow-card) duration-300 hover:shadow-(--hover-shadow-card) md:h-87.25 xl:w-68'>
       <div className='relative h-40 w-full'>
         <Image
           src={imageUrl}
